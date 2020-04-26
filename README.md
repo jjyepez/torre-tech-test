@@ -29,3 +29,8 @@ You have 24 hours to complete it
 
 -   Starting at: 2020-04-26 10:30 am COT
 -   Deadline: 2020-04-26 10:30 am COT
+
+## Installing / Setup
+- Download repo
+- Run npm install
+- Run npm start:prod

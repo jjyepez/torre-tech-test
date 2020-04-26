@@ -6,7 +6,8 @@
   "scripts": {
     "webpack:prod": "webpack --mode production",
     "webpack:dev": "webpack --mode development --watch",
-    "start:dev": "nodemon src/server/index"
+    "start:dev": "nodemon src/server/index",
+    "start:prod": "node src/server/index --NODE-ENV=production"
   },
   "keywords": [],
   "author": "",
