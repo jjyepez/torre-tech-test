@@ -1,0 +1,16 @@
+.MainMenu {
+
+}
+
+.MainMenu-Brand {
+   font-size: 1.5rem;
+   vertical-align: middle;
+}
+
+.MainMenu-NavBar{
+   width: 100%;
+}
+
+.MainMenu-CenterTitle{
+   flex: 1;
+}
