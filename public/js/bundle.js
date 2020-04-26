@@ -86,6 +86,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _arrayLikeToArray(arr, len) {\n  if (len == null || len > arr.length) len = arr.length;\n\n  for (var i = 0, arr2 = new Array(len); i < len; i++) {\n    arr2[i] = arr[i];\n  }\n\n  return arr2;\n}\n\nmodule.exports = _arrayLikeToArray;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/arrayLikeToArray.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _arrayWithHoles(arr) {\n  if (Array.isArray(arr)) return arr;\n}\n\nmodule.exports = _arrayWithHoles;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/arrayWithHoles.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
@@ -133,6 +155,50 @@ eval("function _inheritsLoose(subClass, superClass) {\n  subClass.prototype = Ob
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _iterableToArrayLimit(arr, i) {\n  if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return;\n  var _arr = [];\n  var _n = true;\n  var _d = false;\n  var _e = undefined;\n\n  try {\n    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {\n      _arr.push(_s.value);\n\n      if (i && _arr.length === i) break;\n    }\n  } catch (err) {\n    _d = true;\n    _e = err;\n  } finally {\n    try {\n      if (!_n && _i[\"return\"] != null) _i[\"return\"]();\n    } finally {\n      if (_d) throw _e;\n    }\n  }\n\n  return _arr;\n}\n\nmodule.exports = _iterableToArrayLimit;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/nonIterableRest.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/nonIterableRest.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _nonIterableRest() {\n  throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableRest;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/nonIterableRest.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/slicedToArray.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/slicedToArray.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var arrayWithHoles = __webpack_require__(/*! ./arrayWithHoles */ \"./node_modules/@babel/runtime/helpers/arrayWithHoles.js\");\n\nvar iterableToArrayLimit = __webpack_require__(/*! ./iterableToArrayLimit */ \"./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js\");\n\nvar unsupportedIterableToArray = __webpack_require__(/*! ./unsupportedIterableToArray */ \"./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js\");\n\nvar nonIterableRest = __webpack_require__(/*! ./nonIterableRest */ \"./node_modules/@babel/runtime/helpers/nonIterableRest.js\");\n\nfunction _slicedToArray(arr, i) {\n  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();\n}\n\nmodule.exports = _slicedToArray;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/slicedToArray.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray */ \"./node_modules/@babel/runtime/helpers/arrayLikeToArray.js\");\n\nfunction _unsupportedIterableToArray(o, minLen) {\n  if (!o) return;\n  if (typeof o === \"string\") return arrayLikeToArray(o, minLen);\n  var n = Object.prototype.toString.call(o).slice(8, -1);\n  if (n === \"Object\" && o.constructor) n = o.constructor.name;\n  if (n === \"Map\" || n === \"Set\") return Array.from(n);\n  if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);\n}\n\nmodule.exports = _unsupportedIterableToArray;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/client/components/css/Brand.css":
 /*!***********************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/client/components/css/Brand.css ***!
@@ -141,6 +207,17 @@ eval("function _inheritsLoose(subClass, superClass) {\n  subClass.prototype = Ob
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\\r\\n.Brand {\\r\\n   font-size: 1.2rem;\\r\\n   vertical-align: middle;\\r\\n}\\r\\n\\r\\n.Brand a{\\r\\n   text-decoration: none;\\r\\n}\\r\\n\\r\\n.Brand span{\\r\\n   vertical-align: middle;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/components/css/Brand.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/components/css/HeroButton.css":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/components/css/HeroButton.css ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".HeroButton {\\r\\n   margin: 0 auto;\\r\\n   width: 100%;\\r\\n   max-width: 20vw;\\r\\n   min-width: 15rem;\\r\\n}\\r\\n\\r\\n.HeroButton a {\\r\\n   text-decoration: none;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/components/css/HeroButton.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -163,6 +240,17 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\\r\\n.MainTitle {\\r\\n   flex: 1;\\r\\n   text-align: center;\\r\\n   font-family: Muli, sans-serif;\\r\\n   font-size: 1.75rem;\\r\\n}\\r\\n\\r\\n.MainTitle a {\\r\\n   text-decoration: none;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/components/css/MainTitle.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/pages/css/Home.css":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/pages/css/Home.css ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".Home {\\r\\n\\r\\n}\\r\\n\\r\\n.Home-Slogan {\\r\\n   font-size: 1.1rem;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/pages/css/Home.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -530,7 +618,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Layout */ \"./src/client/components/Layout.js\");\n\n\n\nfunction App(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"MemoryRouter\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n}\n\n//# sourceURL=webpack:///./src/client/components/App.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Layout */ \"./src/client/components/Layout.js\");\n\n\n\nfunction App(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"BrowserRouter\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n}\n\n//# sourceURL=webpack:///./src/client/components/App.js?");
 
 /***/ }),
 
@@ -546,6 +634,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/client/components/HeroButton.js":
+/*!*********************************************!*\
+  !*** ./src/client/components/HeroButton.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return HeroButton; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _css_HeroButton_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/HeroButton.css */ \"./src/client/components/css/HeroButton.css\");\n/* harmony import */ var _css_HeroButton_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_HeroButton_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction HeroButton(_ref) {\n  var imgSrc = _ref.imgSrc,\n      href = _ref.href,\n      title = _ref.title;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"HeroButton text-center\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Link\"], {\n    to: href\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    width: \"100%\",\n    src: imgSrc\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"legend\", null, title)));\n}\n\n//# sourceURL=webpack:///./src/client/components/HeroButton.js?");
+
+/***/ }),
+
 /***/ "./src/client/components/Layout.js":
 /*!*****************************************!*\
   !*** ./src/client/components/Layout.js ***!
@@ -554,7 +654,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MainMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MainMenu */ \"./src/client/components/MainMenu.js\");\n/* harmony import */ var _MainContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MainContent */ \"./src/client/components/MainContent.js\");\n/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/Home */ \"./src/client/pages/Home.js\");\n/* harmony import */ var _pages_Login__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/Login */ \"./src/client/pages/Login.js\");\n/* harmony import */ var _pages_Profile__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/Profile */ \"./src/client/pages/Profile.js\");\n/* harmony import */ var _pages_People__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/People */ \"./src/client/pages/People.js\");\n/* harmony import */ var _pages_Jobs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../pages/Jobs */ \"./src/client/pages/Jobs.js\");\n/* harmony import */ var _pages_Error404__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../pages/Error404 */ \"./src/client/pages/Error404.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\n\n\n\n\n\n\n\n\n\nfunction Layout(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainContent__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"Switch\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"Route\"], {\n    path: \"/\",\n    component: _pages_Home__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"Route\"], {\n    path: \"/login\",\n    component: _pages_Login__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"Route\"], {\n    path: \"/profile\",\n    component: _pages_Profile__WEBPACK_IMPORTED_MODULE_5__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"Route\"], {\n    path: \"/people\",\n    component: _pages_People__WEBPACK_IMPORTED_MODULE_6__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"Route\"], {\n    path: \"/jobs\",\n    component: _pages_Jobs__WEBPACK_IMPORTED_MODULE_7__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"Route\"], {\n    component: _pages_Error404__WEBPACK_IMPORTED_MODULE_8__[\"default\"]\n  }))));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_9__[\"withRouter\"])(function (props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, props);\n}));\n\n//# sourceURL=webpack:///./src/client/components/Layout.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ \"./node_modules/@babel/runtime/helpers/slicedToArray.js\");\n/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _MainMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MainMenu */ \"./src/client/components/MainMenu.js\");\n/* harmony import */ var _MainContent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MainContent */ \"./src/client/components/MainContent.js\");\n/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/Home */ \"./src/client/pages/Home.js\");\n/* harmony import */ var _pages_Login__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/Login */ \"./src/client/pages/Login.js\");\n/* harmony import */ var _pages_Profile__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/Profile */ \"./src/client/pages/Profile.js\");\n/* harmony import */ var _pages_People__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../pages/People */ \"./src/client/pages/People.js\");\n/* harmony import */ var _pages_Jobs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../pages/Jobs */ \"./src/client/pages/Jobs.js\");\n/* harmony import */ var _pages_Error404__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../pages/Error404 */ \"./src/client/pages/Error404.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\n\n\n\n\n\n\n\n\n\n\nfunction Layout(props) {\n  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__[\"useState\"])({}),\n      _useState2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState, 2),\n      state = _useState2[0],\n      updateState = _useState2[1];\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_MainMenu__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_MainContent__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Link\"], {\n    to: \"/login\"\n  }, \"LOGIN\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Switch\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Route\"], {\n    path: \"/\",\n    exact: true,\n    component: _pages_Home__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Route\"], {\n    path: \"/login\",\n    exact: true,\n    component: _pages_Login__WEBPACK_IMPORTED_MODULE_5__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Route\"], {\n    path: \"/profile\",\n    component: _pages_Profile__WEBPACK_IMPORTED_MODULE_6__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Route\"], {\n    path: \"/people\",\n    exact: true,\n    component: _pages_People__WEBPACK_IMPORTED_MODULE_7__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Route\"], {\n    path: \"/jobs\",\n    exact: true,\n    component: _pages_Jobs__WEBPACK_IMPORTED_MODULE_8__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"Route\"], {\n    component: _pages_Error404__WEBPACK_IMPORTED_MODULE_9__[\"default\"]\n  }))));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_10__[\"withRouter\"])(function (props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Layout, props);\n}));\n\n//# sourceURL=webpack:///./src/client/components/Layout.js?");
 
 /***/ }),
 
@@ -617,6 +717,17 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 
 /***/ }),
 
+/***/ "./src/client/components/css/HeroButton.css":
+/*!**************************************************!*\
+  !*** ./src/client/components/css/HeroButton.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./HeroButton.css */ \"./node_modules/css-loader/dist/cjs.js!./src/client/components/css/HeroButton.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/css/HeroButton.css?");
+
+/***/ }),
+
 /***/ "./src/client/components/css/MainMenu.css":
 /*!************************************************!*\
   !*** ./src/client/components/css/MainMenu.css ***!
@@ -668,9 +779,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
   !*** ./src/client/pages/Home.js ***!
   \**********************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\src\\\\client\\\\pages\\\\Home.js: Unexpected token (18:12)\\n\\n\\u001b[0m \\u001b[90m 16 | \\u001b[39m            \\u001b[33m<\\u001b[39m\\u001b[33mdiv\\u001b[39m className\\u001b[33m=\\u001b[39m\\u001b[32m\\\"col-6\\\"\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 17 | \\u001b[39m               \\u001b[33m<\\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 18 | \\u001b[39m            \\u001b[33m<\\u001b[39m\\u001b[33m/\\u001b[39m\\u001b[33mdiv\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m    | \\u001b[39m            \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 19 | \\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 20 | \\u001b[39m            \\u001b[33m<\\u001b[39m\\u001b[33mdiv\\u001b[39m className\\u001b[33m=\\u001b[39m\\u001b[32m\\\"col-6\\\"\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 21 | \\u001b[39m\\u001b[0m\\n    at Object._raise (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:742:17)\\n    at Object.raiseWithData (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:735:17)\\n    at Object.raise (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:729:17)\\n    at Object.unexpected (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:8757:16)\\n    at Object.jsxParseIdentifier (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4388:12)\\n    at Object.jsxParseNamespacedName (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4398:23)\\n    at Object.jsxParseElementName (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4409:21)\\n    at Object.jsxParseOpeningElementAt (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4495:22)\\n    at Object.jsxParseElementAt (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4528:33)\\n    at Object.jsxParseElementAt (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4544:32)\\n    at Object.jsxParseElementAt (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4544:32)\\n    at Object.jsxParseElementAt (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4544:32)\\n    at Object.jsxParseElement (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4602:17)\\n    at Object.parseExprAtom (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4609:19)\\n    at Object.parseExprSubscripts (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9602:23)\\n    at Object.parseMaybeUnary (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9582:21)\\n    at Object.parseExprOps (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9452:23)\\n    at Object.parseMaybeConditional (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9425:23)\\n    at Object.parseMaybeAssign (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9380:21)\\n    at Object.parseParenAndDistinguishExpression (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10193:28)\\n    at Object.parseExprAtom (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9947:21)\\n    at Object.parseExprAtom (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4614:20)\\n    at Object.parseExprSubscripts (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9602:23)\\n    at Object.parseMaybeUnary (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9582:21)\\n    at Object.parseExprOps (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9452:23)\\n    at Object.parseMaybeConditional (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9425:23)\\n    at Object.parseMaybeAssign (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9380:21)\\n    at Object.parseExpression (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9332:23)\\n    at Object.parseReturnStatement (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11448:28)\\n    at Object.parseStatementContent (C:\\\\Users\\\\Julio\\\\Desktop\\\\torre\\\\torre-tech-test\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11129:21)\");\n\n//# sourceURL=webpack:///./src/client/pages/Home.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Home; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_Home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/Home.css */ \"./src/client/pages/css/Home.css\");\n/* harmony import */ var _css_Home_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_Home_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_HeroButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HeroButton */ \"./src/client/components/HeroButton.js\");\n\n\n\nfunction Home(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"Home\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"row mt-5 mb-5\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"Home-Slogan col-12 text-center\"\n  }, \"\\xDAnete a la red profesional de siguiente generaci\\xF3n\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"row\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-6 text-center\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HeroButton__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    href: \"/people\",\n    imgSrc: \"/img/people_hero.png\",\n    title: \"PERSONAS\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-6 text-center\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HeroButton__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    href: \"/jobs\",\n    imgSrc: \"/img/jobs_hero.png\",\n    title: \"JOBS\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"row mt-5 mb-5\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"small text-muted col-12 text-center\"\n  }, \"Las im\\xE1genes son propiedad de sus respectivos creadores.\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"Tomadas de dribbble.com\")));\n}\n\n//# sourceURL=webpack:///./src/client/pages/Home.js?");
 
 /***/ }),
 
@@ -719,6 +831,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Profile; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Profile(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"PROFILE CONTENT\");\n}\n\n//# sourceURL=webpack:///./src/client/pages/Profile.js?");
+
+/***/ }),
+
+/***/ "./src/client/pages/css/Home.css":
+/*!***************************************!*\
+  !*** ./src/client/pages/css/Home.css ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./Home.css */ \"./node_modules/css-loader/dist/cjs.js!./src/client/pages/css/Home.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/pages/css/Home.css?");
 
 /***/ })
 

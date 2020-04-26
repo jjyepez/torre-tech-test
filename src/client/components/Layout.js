@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import MainMenu from './MainMenu';
 import MainContent from './MainContent';
@@ -13,23 +13,25 @@ import Error404 from '../pages/Error404';
 import {
    Switch,
    Route,
-   withRouter
+   withRouter,
+   Link
 } from 'react-router-dom';
 
 function Layout(props) {
+   let [state, updateState] = useState({});
    return (
       <>
          <MainMenu />
 
          <MainContent>
-
+            <Link to="/login">LOGIN</Link>
             <Switch>
 
-               <Route path="/" component={Home} />
-               <Route path="/login" component={Login} />
+               <Route path="/" exact component={Home} />
+               <Route path="/login" exact component={Login} />
                <Route path="/profile" component={Profile} />
-               <Route path="/people" component={People} />
-               <Route path="/jobs" component={Jobs} />
+               <Route path="/people" exact component={People} />
+               <Route path="/jobs" exact component={Jobs} />
                <Route component={Error404} />
 
             </Switch>
