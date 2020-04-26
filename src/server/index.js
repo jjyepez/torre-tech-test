@@ -14,7 +14,11 @@ app
 
 // Routes
 app
-    .use('/', require('./routes/root'));
+    .use('/', require('./routes/root'))
+
+    .use((req, res, next) => {
+        res.redirect('/');
+    })
 
 // Server
 let port = process.env.EXPRESS_PORT || 8000;

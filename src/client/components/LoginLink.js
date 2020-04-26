@@ -1,9 +1,11 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 export default function LoginLink() {
    return (
       <>
-         <button className='btn btn-outline-link btn-sm'>ACCEDER</button>
+         <Link to="/login" className='btn btn-outline-link btn-sm'>ACCEDER</Link>
       </>
    )
 }

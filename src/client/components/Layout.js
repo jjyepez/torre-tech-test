@@ -24,7 +24,7 @@ function Layout(props) {
          <MainMenu />
 
          <MainContent>
-            <Link to="/login">LOGIN</Link>
+
             <Switch>
 
                <Route path="/" exact component={Home} />
