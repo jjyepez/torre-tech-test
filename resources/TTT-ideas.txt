@@ -1,0 +1,20 @@
+
+OBJETIVO: aportar ideas para favorecer que el/la/los usuarios logren encontrar el trabajo de sus sueños
+
+BRAINSTORMING
+
+IDEA 1: (potencial 1)
+Para un usuario dado, filtrar por defecto los empleados de la BD que compartan ciudad e intereses
+
+IDEA 2: 
+Representar en un mapa, personas y trabajos cercanos.
+
+IDEA 3:
+Representar la información obtenida desde los endpoints de maneras creativas y útiles, quizás un grid en lugar de lista, etc.
+Crear una UI diferente para las búsquedas. 
+
+IDEA 4:
+Ir por lo práctico.
+Mostrar la información de manera práctica, y enfocarse en el desarrollo del código más que en una nueva funcionalidad.
+
+IDEA 5:

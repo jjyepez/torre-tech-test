@@ -1,0 +1,2598 @@
+{
+   "person": {
+      "professionalHeadline": "Ingeniero en Informática",
+      "completion": 1,
+      "showPhone": false,
+      "created": "2020-04-05T17:04:38Z",
+      "verified": false,
+      "flags": {
+         "benefits": false,
+         "canary": false,
+         "enlauSource": false,
+         "fake": false,
+         "featureDiscovery": false,
+         "getSignaledBenefitsViewed": false,
+         "firstSignalSent": true,
+         "promoteYourselfBenefitsViewed": true,
+         "promoteYourselfCompleted": true,
+         "importingLinkedin": false,
+         "onBoarded": true,
+         "opportunitiesNotificationsSent": true,
+         "remoter": true,
+         "signalsFeatureDiscovery": true,
+         "signedInToOpportunities": true,
+         "importingLinkedinRecommendations": false,
+         "contactsImported": true
+      },
+      "weight": 0,
+      "locale": "es",
+      "subjectId": "148283",
+      "picture": "https://starrgate.s3.amazonaws.com:443/users/0f16ca55470f4531ee9eab4ccb0deaf900409093/profile_IQQtQuS.jpg",
+      "hasEmail": true,
+      "name": "Julio J. Yépez",
+      "links": [
+         {
+            "id": "9MBrLlMg",
+            "name": "twitter",
+            "address": "https://twitter.com/jjyepez"
+         }
+      ],
+      "location": {
+         "name": "D.C, Bogotá, Colombia",
+         "shortName": "Bogotá, Colombia",
+         "latitude": 4.7109886,
+         "longitude": -74.072092,
+         "timezone": "America/Bogota",
+         "timezoneOffSet": -18000000
+      },
+      "theme": "teal400",
+      "id": "nM4n8Qky",
+      "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/0f16ca55470f4531ee9eab4ccb0deaf900409093/profile_IQQtQuS/42f4513f53a90fe9ae66e9efa417a709.jpg",
+      "claimant": false,
+      "weightGraph": "https://hcti.io/v1/image/01eb2af6-c149-411a-89d7-e72b1fe9e3eb",
+      "publicId": "jjyepez"
+   },
+   "stats": {
+      "strengths": 28,
+      "education": 1,
+      "interests": 3,
+      "jobs": 1,
+      "projects": 1
+   },
+   "strengths": [
+      {
+         "id": "pyJG9rwN",
+         "code": 25720,
+         "name": "Web Development",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "LMgP8oXj",
+         "code": 34431,
+         "name": "Software Architecture",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "xyXYE5QN",
+         "code": 55142,
+         "name": "Adaptability",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "vN8gQLvy",
+         "code": 55192,
+         "name": "Attention to detail",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "0yzO81VN",
+         "code": 55488,
+         "name": "Fast Learner",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "AMWrE5JN",
+         "code": 55532,
+         "name": "Full Stack Development",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "RyDOQLLj",
+         "code": 56184,
+         "name": "Strategic Thinking",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "qNP0abON",
+         "code": 194792,
+         "name": "Material design",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "zNGxOLRM",
+         "code": 21771,
+         "name": "Autonomy",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:23:16"
+      },
+      {
+         "id": "bjA7Q8ZN",
+         "code": 9486,
+         "name": "GIT",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:17:12"
+      },
+      {
+         "id": "EM3EawKy",
+         "code": 23813,
+         "name": "Node.js",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:16:59"
+      },
+      {
+         "id": "8yZVE8ky",
+         "code": 18319,
+         "name": "Javascript",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:16:50"
+      },
+      {
+         "id": "vN8gQmPy",
+         "code": 55263,
+         "name": "Committed",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:16:43"
+      },
+      {
+         "id": "8jp43bzj",
+         "code": 55437,
+         "name": "Efficiency",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:16:17"
+      },
+      {
+         "id": "EM3Eawey",
+         "code": 704,
+         "name": "Software Development",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-23T02:15:57"
+      },
+      {
+         "id": "bjA61Gqy",
+         "code": 1516250,
+         "name": "Investigación y Desarrollo",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:36:23"
+      },
+      {
+         "id": "5ykBoY0j",
+         "code": 240444,
+         "name": "Gestión de datos",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:35:48"
+      },
+      {
+         "id": "mjl9n0By",
+         "code": 60153,
+         "name": "Gestión de proyectos",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:35:33"
+      },
+      {
+         "id": "WNVoDVYM",
+         "code": 223055,
+         "name": "Tecnología",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:35:18"
+      },
+      {
+         "id": "Ajr6mm1j",
+         "code": 1316017,
+         "name": "Creacion artificial",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:34:50"
+      },
+      {
+         "id": "qNPYJJqM",
+         "code": 377267,
+         "name": "Desarrollo de sistemas",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:34:32"
+      },
+      {
+         "id": "RyDpnn4y",
+         "code": 567751,
+         "name": "Diseño de sistemas",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:34:21"
+      },
+      {
+         "id": "LMgzrrVN",
+         "code": 460837,
+         "name": "Análisis de sistemas",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:34:09"
+      },
+      {
+         "id": "JMeX55DN",
+         "code": 120091,
+         "name": "Diseño",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:33:48"
+      },
+      {
+         "id": "kNmZVVqM",
+         "code": 11146,
+         "name": "Analysis",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-06T19:33:42"
+      },
+      {
+         "id": "qy0nmgJM",
+         "code": 1505772,
+         "name": "JS Developer Fullstack",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-05T17:36:49"
+      },
+      {
+         "id": "KNx4nKKN",
+         "code": 1505770,
+         "name": "Diseño UX / UI",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-05T17:36:49"
+      },
+      {
+         "id": "GNKr58Yy",
+         "code": 1505771,
+         "name": "I+D en nuevas herramientas de desarrollo con Javascript",
+         "weight": 0,
+         "recommendations": 0,
+         "media": [],
+         "created": "2020-04-05T17:36:49"
+      }
+   ],
+   "interests": [
+      {
+         "id": "nM4n3l6y",
+         "code": 538543,
+         "name": "Auto confianza",
+         "media": [],
+         "created": "2020-04-05T17:38:08"
+      },
+      {
+         "id": "JyQealdy",
+         "code": 60153,
+         "name": "Gestión de proyectos",
+         "media": [],
+         "created": "2020-04-05T17:38:08"
+      },
+      {
+         "id": "7M2VrlAM",
+         "code": 56436,
+         "name": "Liderazgo",
+         "media": [],
+         "created": "2020-04-05T17:38:08"
+      }
+   ],
+   "experiences": [
+      {
+         "id": "AjrDboGN",
+         "category": "jobs",
+         "name": "Ingeniero de Desarrollo e Implementación",
+         "organizations": [
+            {
+               "id": 15962,
+               "name": "Datatraffic SAS"
+            }
+         ],
+         "fromMonth": "May",
+         "fromYear": "2019",
+         "toMonth": "",
+         "toYear": "",
+         "highlighted": true,
+         "weight": 0,
+         "verifications": 0,
+         "recommendations": 0,
+         "media": [
+            {
+               "group": "36849579-8b82-4558-8033-22d0d0667eb8",
+               "mediaType": "link",
+               "description": "",
+               "mediaItems": [
+                  {
+                     "id": "9ME8pnNl",
+                     "address": "http://datatraffic.com.co"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id": "BMLnW9oy",
+         "category": "projects",
+         "name": "Sistema de integración de datos de posicionamiento geográfico de AVLs y APLs entre Motorola PremierOne y NUSE123 Bogotá",
+         "organizations": [
+            {
+               "id": 179072,
+               "name": "Número único del servicio de Emergencia-Nuse"
+            }
+         ],
+         "fromMonth": "May",
+         "fromYear": "2019",
+         "toMonth": "January",
+         "toYear": "2020",
+         "highlighted": true,
+         "weight": 0,
+         "verifications": 0,
+         "recommendations": 0,
+         "media": []
+      },
+      {
+         "id": "WNVYdeqy",
+         "category": "education",
+         "name": "Ingeniería en Informática",
+         "organizations": [
+            {
+               "id": 2254,
+               "name": "Universidad Alejandro de Humboldt"
+            }
+         ],
+         "fromMonth": "January",
+         "fromYear": "2003",
+         "toMonth": "May",
+         "toYear": "2009",
+         "additionalInfo": "",
+         "highlighted": true,
+         "weight": 0,
+         "verifications": 0,
+         "recommendations": 0,
+         "media": []
+      }
+   ],
+   "achievements": [],
+   "jobs": [
+      {
+         "id": "AjrDboGN",
+         "category": "jobs",
+         "name": "Ingeniero de Desarrollo e Implementación",
+         "organizations": [
+            {
+               "id": 15962,
+               "name": "Datatraffic SAS"
+            }
+         ],
+         "fromMonth": "May",
+         "fromYear": "2019",
+         "toMonth": "",
+         "toYear": "",
+         "highlighted": true,
+         "weight": 0,
+         "verifications": 0,
+         "recommendations": 0,
+         "media": [
+            {
+               "group": "36849579-8b82-4558-8033-22d0d0667eb8",
+               "mediaType": "link",
+               "description": "",
+               "mediaItems": [
+                  {
+                     "id": "9ME8pnNl",
+                     "address": "http://datatraffic.com.co"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "projects": [
+      {
+         "id": "BMLnW9oy",
+         "category": "projects",
+         "name": "Sistema de integración de datos de posicionamiento geográfico de AVLs y APLs entre Motorola PremierOne y NUSE123 Bogotá",
+         "organizations": [
+            {
+               "id": 179072,
+               "name": "Número único del servicio de Emergencia-Nuse"
+            }
+         ],
+         "fromMonth": "May",
+         "fromYear": "2019",
+         "toMonth": "January",
+         "toYear": "2020",
+         "highlighted": true,
+         "weight": 0,
+         "verifications": 0,
+         "recommendations": 0,
+         "media": []
+      }
+   ],
+   "publications": [],
+   "education": [
+      {
+         "id": "WNVYdeqy",
+         "category": "education",
+         "name": "Ingeniería en Informática",
+         "organizations": [
+            {
+               "id": 2254,
+               "name": "Universidad Alejandro de Humboldt"
+            }
+         ],
+         "fromMonth": "January",
+         "fromYear": "2003",
+         "toMonth": "May",
+         "toYear": "2009",
+         "additionalInfo": "",
+         "highlighted": true,
+         "weight": 0,
+         "verifications": 0,
+         "recommendations": 0,
+         "media": []
+      }
+   ],
+   "opportunities": [
+      {
+         "id": "M7GEl1zM",
+         "interest": "jobs",
+         "field": "private",
+         "data": false
+      },
+      {
+         "id": "M2V0l11M",
+         "interest": "jobs",
+         "field": "desirable-compensation-currency",
+         "data": "USD$"
+      },
+      {
+         "id": "j6dkl1AN",
+         "interest": "jobs",
+         "field": "desirable-compensation-amount",
+         "data": 25000
+      },
+      {
+         "id": "MLzAl4Vy",
+         "interest": "jobs",
+         "field": "desirable-compensation-periodicity",
+         "data": "yearly"
+      },
+      {
+         "id": "y5Q7lV4y",
+         "interest": "jobs",
+         "field": "desirable-compensation-publicly-visible",
+         "data": true
+      },
+      {
+         "id": "yX7GpPYj",
+         "interest": "industries",
+         "field": "types",
+         "data": [
+            {
+               "locale": "es",
+               "name": "Tecnologia"
+            },
+            {
+               "locale": "es",
+               "name": "Software"
+            }
+         ]
+      },
+      {
+         "id": "MgB1YoWN",
+         "interest": "jobs",
+         "field": "active",
+         "data": true
+      },
+      {
+         "id": "N8O7ZL2y",
+         "interest": "internships",
+         "field": "active",
+         "data": true
+      },
+      {
+         "id": "yZeKAOxj",
+         "interest": "mentoring",
+         "field": "active",
+         "data": true
+      },
+      {
+         "id": "M3zkQVeN",
+         "interest": "advising",
+         "field": "active",
+         "data": true
+      }
+   ],
+   "languages": [
+      {
+         "code": "es",
+         "language": "Español",
+         "fluency": "fully-fluent"
+      },
+      {
+         "code": "en",
+         "language": "Inglés",
+         "fluency": "fully-fluent"
+      }
+   ],
+   "personalityTraitsResults": {
+      "groups": [
+         {
+            "id": "extraversion",
+            "order": 0,
+            "median": 3.5,
+            "stddev": 0.57
+         },
+         {
+            "id": "openness-to-experience",
+            "order": 1,
+            "median": 3.41,
+            "stddev": 0.6
+         },
+         {
+            "id": "conscientiousness",
+            "order": 2,
+            "median": 3.44,
+            "stddev": 0.56
+         },
+         {
+            "id": "agreeableness",
+            "order": 3,
+            "median": 2.94,
+            "stddev": 0.58
+         },
+         {
+            "id": "honesty-humility",
+            "order": 4,
+            "median": 3.19,
+            "stddev": 0.62
+         },
+         {
+            "id": "emotionality",
+            "order": 5,
+            "median": 3.43,
+            "stddev": 0.62
+         }
+      ],
+      "analyses": [
+         {
+            "groupId": "openness-to-experience",
+            "analysis": 3.81
+         },
+         {
+            "groupId": "honesty-humility",
+            "analysis": 3.69
+         },
+         {
+            "groupId": "agreeableness",
+            "analysis": 2.75
+         },
+         {
+            "groupId": "altruism",
+            "analysis": 3.75
+         },
+         {
+            "groupId": "conscientiousness",
+            "analysis": 4.06
+         },
+         {
+            "groupId": "emotionality",
+            "analysis": 3.13
+         },
+         {
+            "groupId": "extraversion",
+            "analysis": 3
+         }
+      ]
+   },
+   "professionalCultureGenomeResults": {
+      "groups": [
+         {
+            "id": "1",
+            "text": "Achievement oriented",
+            "answer": "all-the-time",
+            "order": 0
+         },
+         {
+            "id": "6",
+            "text": "Being analytical",
+            "answer": "all-the-time",
+            "order": 1
+         },
+         {
+            "id": "14",
+            "text": "Being honest",
+            "answer": "all-the-time",
+            "order": 2
+         },
+         {
+            "id": "33",
+            "text": "Having high ethical standards",
+            "answer": "all-the-time",
+            "order": 3
+         },
+         {
+            "id": "35",
+            "text": "Having integrity",
+            "answer": "all-the-time",
+            "order": 4
+         },
+         {
+            "id": "38",
+            "text": "Learning from mistakes",
+            "answer": "all-the-time",
+            "order": 5
+         },
+         {
+            "id": "45",
+            "text": "Respecting individuals",
+            "answer": "all-the-time",
+            "order": 6
+         },
+         {
+            "id": "3",
+            "text": "Adaptability",
+            "answer": "most-of-the-time",
+            "order": 7
+         },
+         {
+            "id": "4",
+            "text": "Avoiding conflict",
+            "answer": "most-of-the-time",
+            "order": 8
+         },
+         {
+            "id": "7",
+            "text": "Being calm",
+            "answer": "most-of-the-time",
+            "order": 9
+         },
+         {
+            "id": "8",
+            "text": "Being careful",
+            "answer": "most-of-the-time",
+            "order": 10
+         },
+         {
+            "id": "11",
+            "text": "Being decisive",
+            "answer": "most-of-the-time",
+            "order": 11
+         },
+         {
+            "id": "13",
+            "text": "Being fair",
+            "answer": "most-of-the-time",
+            "order": 12
+         },
+         {
+            "id": "15",
+            "text": "Being innovative",
+            "answer": "most-of-the-time",
+            "order": 13
+         },
+         {
+            "id": "18",
+            "text": "Being precise",
+            "answer": "most-of-the-time",
+            "order": 14
+         },
+         {
+            "id": "20",
+            "text": "Being reflective",
+            "answer": "most-of-the-time",
+            "order": 15
+         },
+         {
+            "id": "21",
+            "text": "Being results oriented",
+            "answer": "most-of-the-time",
+            "order": 16
+         },
+         {
+            "id": "22",
+            "text": "Being rule oriented",
+            "answer": "most-of-the-time",
+            "order": 17
+         },
+         {
+            "id": "23",
+            "text": "Being supportive",
+            "answer": "most-of-the-time",
+            "order": 18
+         },
+         {
+            "id": "26",
+            "text": "Being willing to experiment",
+            "answer": "most-of-the-time",
+            "order": 19
+         },
+         {
+            "id": "27",
+            "text": "Confronting conflict directly",
+            "answer": "most-of-the-time",
+            "order": 20
+         },
+         {
+            "id": "28",
+            "text": "Cooperative",
+            "answer": "most-of-the-time",
+            "order": 21
+         },
+         {
+            "id": "29",
+            "text": "Emphasis on professional growth",
+            "answer": "most-of-the-time",
+            "order": 22
+         },
+         {
+            "id": "30",
+            "text": "Emphasizing quality",
+            "answer": "most-of-the-time",
+            "order": 23
+         },
+         {
+            "id": "34",
+            "text": "Having high expectations for performance",
+            "answer": "most-of-the-time",
+            "order": 24
+         },
+         {
+            "id": "39",
+            "text": "Listening to customers",
+            "answer": "most-of-the-time",
+            "order": 25
+         },
+         {
+            "id": "40",
+            "text": "Making your numbers",
+            "answer": "most-of-the-time",
+            "order": 26
+         },
+         {
+            "id": "42",
+            "text": "Paying attention to detail",
+            "answer": "most-of-the-time",
+            "order": 27
+         },
+         {
+            "id": "43",
+            "text": "Predictability",
+            "answer": "most-of-the-time",
+            "order": 28
+         },
+         {
+            "id": "44",
+            "text": "Putting organization's goals before unit's goals",
+            "answer": "most-of-the-time",
+            "order": 29
+         },
+         {
+            "id": "46",
+            "text": "Risk-taking",
+            "answer": "most-of-the-time",
+            "order": 30
+         },
+         {
+            "id": "49",
+            "text": "Stability",
+            "answer": "most-of-the-time",
+            "order": 31
+         },
+         {
+            "id": "50",
+            "text": "Taking individual responsibility",
+            "answer": "most-of-the-time",
+            "order": 32
+         },
+         {
+            "id": "2",
+            "text": "Action oriented",
+            "answer": "sometimes",
+            "order": 33
+         },
+         {
+            "id": "9",
+            "text": "Being competitive",
+            "answer": "sometimes",
+            "order": 34
+         },
+         {
+            "id": "12",
+            "text": "Being easygoing",
+            "answer": "sometimes",
+            "order": 35
+         },
+         {
+            "id": "16",
+            "text": "Being market driven",
+            "answer": "sometimes",
+            "order": 36
+         },
+         {
+            "id": "19",
+            "text": "Being quick to take advantage of opportunities",
+            "answer": "sometimes",
+            "order": 37
+         },
+         {
+            "id": "24",
+            "text": "Being team oriented",
+            "answer": "sometimes",
+            "order": 38
+         },
+         {
+            "id": "25",
+            "text": "Being tolerant",
+            "answer": "sometimes",
+            "order": 39
+         },
+         {
+            "id": "31",
+            "text": "Fast moving",
+            "answer": "sometimes",
+            "order": 40
+         },
+         {
+            "id": "37",
+            "text": "Individual goals are transparent",
+            "answer": "sometimes",
+            "order": 41
+         },
+         {
+            "id": "41",
+            "text": "Not being constrained by many rules",
+            "answer": "sometimes",
+            "order": 42
+         },
+         {
+            "id": "47",
+            "text": "Security of employment",
+            "answer": "sometimes",
+            "order": 43
+         },
+         {
+            "id": "48",
+            "text": "Sharing information freely",
+            "answer": "sometimes",
+            "order": 44
+         },
+         {
+            "id": "51",
+            "text": "Taking initiative",
+            "answer": "sometimes",
+            "order": 45
+         },
+         {
+            "id": "53",
+            "text": "What you know matters more than who you know",
+            "answer": "sometimes",
+            "order": 46
+         },
+         {
+            "id": "54",
+            "text": "Working in collaboration with others",
+            "answer": "sometimes",
+            "order": 47
+         },
+         {
+            "id": "10",
+            "text": "Being customer oriented",
+            "answer": "rarely",
+            "order": 48
+         },
+         {
+            "id": "17",
+            "text": "Being people oriented",
+            "answer": "rarely",
+            "order": 49
+         },
+         {
+            "id": "32",
+            "text": "Hard-driving",
+            "answer": "rarely",
+            "order": 50
+         },
+         {
+            "id": "36",
+            "text": "High levels of conflict",
+            "answer": "rarely",
+            "order": 51
+         },
+         {
+            "id": "52",
+            "text": "Urgency",
+            "answer": "rarely",
+            "order": 52
+         },
+         {
+            "id": "5",
+            "text": "Being aggressive",
+            "answer": "never",
+            "order": 53
+         }
+      ],
+      "analyses": [
+         {
+            "groupId": "1",
+            "section": "adaptability",
+            "analysis": -0.2
+         },
+         {
+            "groupId": "1",
+            "section": "integrity",
+            "analysis": -0.32
+         },
+         {
+            "groupId": "1",
+            "section": "collaborative",
+            "analysis": -0.44
+         },
+         {
+            "groupId": "1",
+            "section": "results-oriented",
+            "analysis": 2.12
+         },
+         {
+            "groupId": "1",
+            "section": "customer-oriented",
+            "analysis": -0.32
+         },
+         {
+            "groupId": "1",
+            "section": "detail-oriented",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "10",
+            "section": "adaptability",
+            "analysis": 0.05
+         },
+         {
+            "groupId": "10",
+            "section": "integrity",
+            "analysis": 0.01
+         },
+         {
+            "groupId": "10",
+            "section": "collaborative",
+            "analysis": 0.07
+         },
+         {
+            "groupId": "10",
+            "section": "results-oriented",
+            "analysis": -0.04
+         },
+         {
+            "groupId": "10",
+            "section": "customer-oriented",
+            "analysis": 0.8
+         },
+         {
+            "groupId": "10",
+            "section": "detail-oriented",
+            "analysis": 0.05
+         },
+         {
+            "groupId": "11",
+            "section": "adaptability",
+            "analysis": -0.27
+         },
+         {
+            "groupId": "11",
+            "section": "integrity",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "11",
+            "section": "collaborative",
+            "analysis": -0.81
+         },
+         {
+            "groupId": "11",
+            "section": "results-oriented",
+            "analysis": 0.27
+         },
+         {
+            "groupId": "11",
+            "section": "customer-oriented",
+            "analysis": 0.24
+         },
+         {
+            "groupId": "11",
+            "section": "detail-oriented",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "12",
+            "section": "adaptability",
+            "analysis": 0.22
+         },
+         {
+            "groupId": "12",
+            "section": "integrity",
+            "analysis": -0.66
+         },
+         {
+            "groupId": "12",
+            "section": "collaborative",
+            "analysis": 0.78
+         },
+         {
+            "groupId": "12",
+            "section": "results-oriented",
+            "analysis": -0.72
+         },
+         {
+            "groupId": "12",
+            "section": "customer-oriented",
+            "analysis": 0.16
+         },
+         {
+            "groupId": "12",
+            "section": "detail-oriented",
+            "analysis": -0.2
+         },
+         {
+            "groupId": "13",
+            "section": "adaptability",
+            "analysis": -0.06
+         },
+         {
+            "groupId": "13",
+            "section": "integrity",
+            "analysis": 1.44
+         },
+         {
+            "groupId": "13",
+            "section": "collaborative",
+            "analysis": 0.21
+         },
+         {
+            "groupId": "13",
+            "section": "results-oriented",
+            "analysis": -0.93
+         },
+         {
+            "groupId": "13",
+            "section": "customer-oriented",
+            "analysis": 0.15
+         },
+         {
+            "groupId": "13",
+            "section": "detail-oriented",
+            "analysis": -0.3
+         },
+         {
+            "groupId": "14",
+            "section": "adaptability",
+            "analysis": 0.04
+         },
+         {
+            "groupId": "14",
+            "section": "integrity",
+            "analysis": 2.68
+         },
+         {
+            "groupId": "14",
+            "section": "collaborative",
+            "analysis": 0.12
+         },
+         {
+            "groupId": "14",
+            "section": "results-oriented",
+            "analysis": -0.16
+         },
+         {
+            "groupId": "14",
+            "section": "customer-oriented",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "14",
+            "section": "detail-oriented",
+            "analysis": 0.16
+         },
+         {
+            "groupId": "15",
+            "section": "adaptability",
+            "analysis": 1.8
+         },
+         {
+            "groupId": "15",
+            "section": "integrity",
+            "analysis": 0.27
+         },
+         {
+            "groupId": "15",
+            "section": "collaborative",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "15",
+            "section": "results-oriented",
+            "analysis": 0.18
+         },
+         {
+            "groupId": "15",
+            "section": "customer-oriented",
+            "analysis": 0.12
+         },
+         {
+            "groupId": "15",
+            "section": "detail-oriented",
+            "analysis": 0.27
+         },
+         {
+            "groupId": "16",
+            "section": "adaptability",
+            "analysis": -0.1
+         },
+         {
+            "groupId": "16",
+            "section": "integrity",
+            "analysis": -0.32
+         },
+         {
+            "groupId": "16",
+            "section": "collaborative",
+            "analysis": -0.14
+         },
+         {
+            "groupId": "16",
+            "section": "results-oriented",
+            "analysis": 0.18
+         },
+         {
+            "groupId": "16",
+            "section": "customer-oriented",
+            "analysis": 1.04
+         },
+         {
+            "groupId": "16",
+            "section": "detail-oriented",
+            "analysis": -0.46
+         },
+         {
+            "groupId": "17",
+            "section": "adaptability",
+            "analysis": 0.02
+         },
+         {
+            "groupId": "17",
+            "section": "integrity",
+            "analysis": 0.01
+         },
+         {
+            "groupId": "17",
+            "section": "collaborative",
+            "analysis": 0.09
+         },
+         {
+            "groupId": "17",
+            "section": "results-oriented",
+            "analysis": -0.01
+         },
+         {
+            "groupId": "17",
+            "section": "customer-oriented",
+            "analysis": 0.2
+         },
+         {
+            "groupId": "17",
+            "section": "detail-oriented",
+            "analysis": -0.45
+         },
+         {
+            "groupId": "18",
+            "section": "adaptability",
+            "analysis": -0.81
+         },
+         {
+            "groupId": "18",
+            "section": "integrity",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "18",
+            "section": "collaborative",
+            "analysis": -0.42
+         },
+         {
+            "groupId": "18",
+            "section": "results-oriented",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "18",
+            "section": "customer-oriented",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "18",
+            "section": "detail-oriented",
+            "analysis": 1.86
+         },
+         {
+            "groupId": "19",
+            "section": "adaptability",
+            "analysis": 0.92
+         },
+         {
+            "groupId": "19",
+            "section": "integrity",
+            "analysis": -0.68
+         },
+         {
+            "groupId": "19",
+            "section": "collaborative",
+            "analysis": -0.38
+         },
+         {
+            "groupId": "19",
+            "section": "results-oriented",
+            "analysis": -0.02
+         },
+         {
+            "groupId": "19",
+            "section": "customer-oriented",
+            "analysis": 0.3
+         },
+         {
+            "groupId": "19",
+            "section": "detail-oriented",
+            "analysis": -0.16
+         },
+         {
+            "groupId": "2",
+            "section": "adaptability",
+            "analysis": -0.08
+         },
+         {
+            "groupId": "2",
+            "section": "integrity",
+            "analysis": -0.34
+         },
+         {
+            "groupId": "2",
+            "section": "collaborative",
+            "analysis": -0.14
+         },
+         {
+            "groupId": "2",
+            "section": "results-oriented",
+            "analysis": 0.24
+         },
+         {
+            "groupId": "2",
+            "section": "customer-oriented",
+            "analysis": -0.1
+         },
+         {
+            "groupId": "2",
+            "section": "detail-oriented",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "20",
+            "section": "adaptability",
+            "analysis": -0.06
+         },
+         {
+            "groupId": "20",
+            "section": "integrity",
+            "analysis": -1.32
+         },
+         {
+            "groupId": "20",
+            "section": "collaborative",
+            "analysis": -1.17
+         },
+         {
+            "groupId": "20",
+            "section": "results-oriented",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "20",
+            "section": "customer-oriented",
+            "analysis": -0.69
+         },
+         {
+            "groupId": "20",
+            "section": "detail-oriented",
+            "analysis": 0.03
+         },
+         {
+            "groupId": "21",
+            "section": "adaptability",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "21",
+            "section": "integrity",
+            "analysis": -0.3
+         },
+         {
+            "groupId": "21",
+            "section": "collaborative",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "21",
+            "section": "results-oriented",
+            "analysis": 1.8
+         },
+         {
+            "groupId": "21",
+            "section": "customer-oriented",
+            "analysis": 0.33
+         },
+         {
+            "groupId": "21",
+            "section": "detail-oriented",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "22",
+            "section": "adaptability",
+            "analysis": -1.89
+         },
+         {
+            "groupId": "22",
+            "section": "integrity",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "22",
+            "section": "collaborative",
+            "analysis": -0.33
+         },
+         {
+            "groupId": "22",
+            "section": "results-oriented",
+            "analysis": 0.15
+         },
+         {
+            "groupId": "22",
+            "section": "customer-oriented",
+            "analysis": -0.15
+         },
+         {
+            "groupId": "22",
+            "section": "detail-oriented",
+            "analysis": 0.33
+         },
+         {
+            "groupId": "23",
+            "section": "adaptability",
+            "analysis": -0.21
+         },
+         {
+            "groupId": "23",
+            "section": "integrity",
+            "analysis": 0.51
+         },
+         {
+            "groupId": "23",
+            "section": "collaborative",
+            "analysis": 1.32
+         },
+         {
+            "groupId": "23",
+            "section": "results-oriented",
+            "analysis": -1.08
+         },
+         {
+            "groupId": "23",
+            "section": "customer-oriented",
+            "analysis": -0.09
+         },
+         {
+            "groupId": "23",
+            "section": "detail-oriented",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "24",
+            "section": "adaptability",
+            "analysis": 0.04
+         },
+         {
+            "groupId": "24",
+            "section": "integrity",
+            "analysis": 0.24
+         },
+         {
+            "groupId": "24",
+            "section": "collaborative",
+            "analysis": 1.3
+         },
+         {
+            "groupId": "24",
+            "section": "results-oriented",
+            "analysis": 0.2
+         },
+         {
+            "groupId": "24",
+            "section": "customer-oriented",
+            "analysis": -0.06
+         },
+         {
+            "groupId": "24",
+            "section": "detail-oriented",
+            "analysis": 0.04
+         },
+         {
+            "groupId": "25",
+            "section": "adaptability",
+            "analysis": 1.12
+         },
+         {
+            "groupId": "25",
+            "section": "integrity",
+            "analysis": 0.84
+         },
+         {
+            "groupId": "25",
+            "section": "collaborative",
+            "analysis": 0.04
+         },
+         {
+            "groupId": "25",
+            "section": "results-oriented",
+            "analysis": -0.54
+         },
+         {
+            "groupId": "25",
+            "section": "customer-oriented",
+            "analysis": 0.02
+         },
+         {
+            "groupId": "25",
+            "section": "detail-oriented",
+            "analysis": -0.68
+         },
+         {
+            "groupId": "26",
+            "section": "adaptability",
+            "analysis": 1.77
+         },
+         {
+            "groupId": "26",
+            "section": "integrity",
+            "analysis": -0.3
+         },
+         {
+            "groupId": "26",
+            "section": "collaborative",
+            "analysis": -0.15
+         },
+         {
+            "groupId": "26",
+            "section": "results-oriented",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "26",
+            "section": "customer-oriented",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "26",
+            "section": "detail-oriented",
+            "analysis": -0.27
+         },
+         {
+            "groupId": "27",
+            "section": "adaptability",
+            "analysis": 0.33
+         },
+         {
+            "groupId": "27",
+            "section": "integrity",
+            "analysis": 0.06
+         },
+         {
+            "groupId": "27",
+            "section": "collaborative",
+            "analysis": -1.41
+         },
+         {
+            "groupId": "27",
+            "section": "results-oriented",
+            "analysis": 0.33
+         },
+         {
+            "groupId": "27",
+            "section": "customer-oriented",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "27",
+            "section": "detail-oriented",
+            "analysis": 0.36
+         },
+         {
+            "groupId": "28",
+            "section": "adaptability",
+            "analysis": -0.27
+         },
+         {
+            "groupId": "28",
+            "section": "integrity",
+            "analysis": 0.09
+         },
+         {
+            "groupId": "28",
+            "section": "collaborative",
+            "analysis": 1.8
+         },
+         {
+            "groupId": "28",
+            "section": "results-oriented",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "28",
+            "section": "customer-oriented",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "28",
+            "section": "detail-oriented",
+            "analysis": -0.06
+         },
+         {
+            "groupId": "29",
+            "section": "adaptability",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "29",
+            "section": "integrity",
+            "analysis": -1.2
+         },
+         {
+            "groupId": "29",
+            "section": "collaborative",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "29",
+            "section": "results-oriented",
+            "analysis": 0.24
+         },
+         {
+            "groupId": "29",
+            "section": "customer-oriented",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "29",
+            "section": "detail-oriented",
+            "analysis": -0.72
+         },
+         {
+            "groupId": "3",
+            "section": "adaptability",
+            "analysis": 1.23
+         },
+         {
+            "groupId": "3",
+            "section": "integrity",
+            "analysis": -0.81
+         },
+         {
+            "groupId": "3",
+            "section": "collaborative",
+            "analysis": 0.06
+         },
+         {
+            "groupId": "3",
+            "section": "results-oriented",
+            "analysis": -0.21
+         },
+         {
+            "groupId": "3",
+            "section": "customer-oriented",
+            "analysis": 0.09
+         },
+         {
+            "groupId": "3",
+            "section": "detail-oriented",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "30",
+            "section": "adaptability",
+            "analysis": -0.12
+         },
+         {
+            "groupId": "30",
+            "section": "integrity",
+            "analysis": 0.27
+         },
+         {
+            "groupId": "30",
+            "section": "collaborative",
+            "analysis": 0
+         },
+         {
+            "groupId": "30",
+            "section": "results-oriented",
+            "analysis": -0.33
+         },
+         {
+            "groupId": "30",
+            "section": "customer-oriented",
+            "analysis": 0.75
+         },
+         {
+            "groupId": "30",
+            "section": "detail-oriented",
+            "analysis": 1.86
+         },
+         {
+            "groupId": "31",
+            "section": "adaptability",
+            "analysis": 1.02
+         },
+         {
+            "groupId": "31",
+            "section": "integrity",
+            "analysis": -0.74
+         },
+         {
+            "groupId": "31",
+            "section": "collaborative",
+            "analysis": -0.42
+         },
+         {
+            "groupId": "31",
+            "section": "results-oriented",
+            "analysis": 0.2
+         },
+         {
+            "groupId": "31",
+            "section": "customer-oriented",
+            "analysis": -0.26
+         },
+         {
+            "groupId": "31",
+            "section": "detail-oriented",
+            "analysis": -0.2
+         },
+         {
+            "groupId": "32",
+            "section": "adaptability",
+            "analysis": 0.04
+         },
+         {
+            "groupId": "32",
+            "section": "integrity",
+            "analysis": -0.33
+         },
+         {
+            "groupId": "32",
+            "section": "collaborative",
+            "analysis": -0.44
+         },
+         {
+            "groupId": "32",
+            "section": "results-oriented",
+            "analysis": 0.28
+         },
+         {
+            "groupId": "32",
+            "section": "customer-oriented",
+            "analysis": -0.17
+         },
+         {
+            "groupId": "32",
+            "section": "detail-oriented",
+            "analysis": -0.07
+         },
+         {
+            "groupId": "33",
+            "section": "adaptability",
+            "analysis": -0.2
+         },
+         {
+            "groupId": "33",
+            "section": "integrity",
+            "analysis": 3.04
+         },
+         {
+            "groupId": "33",
+            "section": "collaborative",
+            "analysis": 0.28
+         },
+         {
+            "groupId": "33",
+            "section": "results-oriented",
+            "analysis": 0.04
+         },
+         {
+            "groupId": "33",
+            "section": "customer-oriented",
+            "analysis": 0.08
+         },
+         {
+            "groupId": "33",
+            "section": "detail-oriented",
+            "analysis": 0.16
+         },
+         {
+            "groupId": "34",
+            "section": "adaptability",
+            "analysis": 0.39
+         },
+         {
+            "groupId": "34",
+            "section": "integrity",
+            "analysis": -0.21
+         },
+         {
+            "groupId": "34",
+            "section": "collaborative",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "34",
+            "section": "results-oriented",
+            "analysis": 1.74
+         },
+         {
+            "groupId": "34",
+            "section": "customer-oriented",
+            "analysis": -0.21
+         },
+         {
+            "groupId": "34",
+            "section": "detail-oriented",
+            "analysis": 0.06
+         },
+         {
+            "groupId": "35",
+            "section": "adaptability",
+            "analysis": -0.04
+         },
+         {
+            "groupId": "35",
+            "section": "integrity",
+            "analysis": 3.08
+         },
+         {
+            "groupId": "35",
+            "section": "collaborative",
+            "analysis": 0.32
+         },
+         {
+            "groupId": "35",
+            "section": "results-oriented",
+            "analysis": -0.08
+         },
+         {
+            "groupId": "35",
+            "section": "customer-oriented",
+            "analysis": -0.12
+         },
+         {
+            "groupId": "35",
+            "section": "detail-oriented",
+            "analysis": 0.08
+         },
+         {
+            "groupId": "36",
+            "section": "adaptability",
+            "analysis": -0.59
+         },
+         {
+            "groupId": "36",
+            "section": "integrity",
+            "analysis": -0.35
+         },
+         {
+            "groupId": "36",
+            "section": "collaborative",
+            "analysis": -0.43
+         },
+         {
+            "groupId": "36",
+            "section": "results-oriented",
+            "analysis": -0.02
+         },
+         {
+            "groupId": "36",
+            "section": "customer-oriented",
+            "analysis": 0.01
+         },
+         {
+            "groupId": "36",
+            "section": "detail-oriented",
+            "analysis": -0.11
+         },
+         {
+            "groupId": "37",
+            "section": "adaptability",
+            "analysis": -0.04
+         },
+         {
+            "groupId": "37",
+            "section": "integrity",
+            "analysis": 0.8
+         },
+         {
+            "groupId": "37",
+            "section": "collaborative",
+            "analysis": 0.22
+         },
+         {
+            "groupId": "37",
+            "section": "results-oriented",
+            "analysis": -0.32
+         },
+         {
+            "groupId": "37",
+            "section": "customer-oriented",
+            "analysis": 0.14
+         },
+         {
+            "groupId": "37",
+            "section": "detail-oriented",
+            "analysis": -0.6
+         },
+         {
+            "groupId": "38",
+            "section": "adaptability",
+            "analysis": 3.16
+         },
+         {
+            "groupId": "38",
+            "section": "integrity",
+            "analysis": -1.4
+         },
+         {
+            "groupId": "38",
+            "section": "collaborative",
+            "analysis": -1.08
+         },
+         {
+            "groupId": "38",
+            "section": "results-oriented",
+            "analysis": 0.08
+         },
+         {
+            "groupId": "38",
+            "section": "customer-oriented",
+            "analysis": -0.92
+         },
+         {
+            "groupId": "38",
+            "section": "detail-oriented",
+            "analysis": -0.72
+         },
+         {
+            "groupId": "39",
+            "section": "adaptability",
+            "analysis": 0
+         },
+         {
+            "groupId": "39",
+            "section": "integrity",
+            "analysis": 0.15
+         },
+         {
+            "groupId": "39",
+            "section": "collaborative",
+            "analysis": 0.18
+         },
+         {
+            "groupId": "39",
+            "section": "results-oriented",
+            "analysis": 0
+         },
+         {
+            "groupId": "39",
+            "section": "customer-oriented",
+            "analysis": 2.37
+         },
+         {
+            "groupId": "39",
+            "section": "detail-oriented",
+            "analysis": 0.24
+         },
+         {
+            "groupId": "4",
+            "section": "adaptability",
+            "analysis": -1.14
+         },
+         {
+            "groupId": "4",
+            "section": "integrity",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "4",
+            "section": "collaborative",
+            "analysis": 1.29
+         },
+         {
+            "groupId": "4",
+            "section": "results-oriented",
+            "analysis": -0.87
+         },
+         {
+            "groupId": "4",
+            "section": "customer-oriented",
+            "analysis": -0.21
+         },
+         {
+            "groupId": "4",
+            "section": "detail-oriented",
+            "analysis": -0.27
+         },
+         {
+            "groupId": "40",
+            "section": "adaptability",
+            "analysis": -1.29
+         },
+         {
+            "groupId": "40",
+            "section": "integrity",
+            "analysis": -0.33
+         },
+         {
+            "groupId": "40",
+            "section": "collaborative",
+            "analysis": -0.51
+         },
+         {
+            "groupId": "40",
+            "section": "results-oriented",
+            "analysis": 1.17
+         },
+         {
+            "groupId": "40",
+            "section": "customer-oriented",
+            "analysis": 0.54
+         },
+         {
+            "groupId": "40",
+            "section": "detail-oriented",
+            "analysis": -0.9
+         },
+         {
+            "groupId": "41",
+            "section": "adaptability",
+            "analysis": 0.84
+         },
+         {
+            "groupId": "41",
+            "section": "integrity",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "41",
+            "section": "collaborative",
+            "analysis": 0.02
+         },
+         {
+            "groupId": "41",
+            "section": "results-oriented",
+            "analysis": -0.54
+         },
+         {
+            "groupId": "41",
+            "section": "customer-oriented",
+            "analysis": -0.46
+         },
+         {
+            "groupId": "41",
+            "section": "detail-oriented",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "42",
+            "section": "adaptability",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "42",
+            "section": "integrity",
+            "analysis": -0.09
+         },
+         {
+            "groupId": "42",
+            "section": "collaborative",
+            "analysis": 0.06
+         },
+         {
+            "groupId": "42",
+            "section": "results-oriented",
+            "analysis": 0.27
+         },
+         {
+            "groupId": "42",
+            "section": "customer-oriented",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "42",
+            "section": "detail-oriented",
+            "analysis": 2.22
+         },
+         {
+            "groupId": "43",
+            "section": "adaptability",
+            "analysis": -1.89
+         },
+         {
+            "groupId": "43",
+            "section": "integrity",
+            "analysis": -0.18
+         },
+         {
+            "groupId": "43",
+            "section": "collaborative",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "43",
+            "section": "results-oriented",
+            "analysis": -0.54
+         },
+         {
+            "groupId": "43",
+            "section": "customer-oriented",
+            "analysis": 0.15
+         },
+         {
+            "groupId": "43",
+            "section": "detail-oriented",
+            "analysis": -0.27
+         },
+         {
+            "groupId": "44",
+            "section": "adaptability",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "44",
+            "section": "integrity",
+            "analysis": -0.72
+         },
+         {
+            "groupId": "44",
+            "section": "collaborative",
+            "analysis": 0.54
+         },
+         {
+            "groupId": "44",
+            "section": "results-oriented",
+            "analysis": 0.12
+         },
+         {
+            "groupId": "44",
+            "section": "customer-oriented",
+            "analysis": -0.15
+         },
+         {
+            "groupId": "44",
+            "section": "detail-oriented",
+            "analysis": -0.39
+         },
+         {
+            "groupId": "45",
+            "section": "adaptability",
+            "analysis": 0
+         },
+         {
+            "groupId": "45",
+            "section": "integrity",
+            "analysis": 2.12
+         },
+         {
+            "groupId": "45",
+            "section": "collaborative",
+            "analysis": 1.4
+         },
+         {
+            "groupId": "45",
+            "section": "results-oriented",
+            "analysis": -0.8
+         },
+         {
+            "groupId": "45",
+            "section": "customer-oriented",
+            "analysis": -0.12
+         },
+         {
+            "groupId": "45",
+            "section": "detail-oriented",
+            "analysis": -0.44
+         },
+         {
+            "groupId": "46",
+            "section": "adaptability",
+            "analysis": 1.77
+         },
+         {
+            "groupId": "46",
+            "section": "integrity",
+            "analysis": -0.45
+         },
+         {
+            "groupId": "46",
+            "section": "collaborative",
+            "analysis": -0.81
+         },
+         {
+            "groupId": "46",
+            "section": "results-oriented",
+            "analysis": 0.03
+         },
+         {
+            "groupId": "46",
+            "section": "customer-oriented",
+            "analysis": -0.06
+         },
+         {
+            "groupId": "46",
+            "section": "detail-oriented",
+            "analysis": -0.39
+         },
+         {
+            "groupId": "47",
+            "section": "adaptability",
+            "analysis": -0.32
+         },
+         {
+            "groupId": "47",
+            "section": "integrity",
+            "analysis": -0.02
+         },
+         {
+            "groupId": "47",
+            "section": "collaborative",
+            "analysis": -0.14
+         },
+         {
+            "groupId": "47",
+            "section": "results-oriented",
+            "analysis": -1.14
+         },
+         {
+            "groupId": "47",
+            "section": "customer-oriented",
+            "analysis": -0.18
+         },
+         {
+            "groupId": "47",
+            "section": "detail-oriented",
+            "analysis": -0.22
+         },
+         {
+            "groupId": "48",
+            "section": "adaptability",
+            "analysis": -0.68
+         },
+         {
+            "groupId": "48",
+            "section": "integrity",
+            "analysis": -0.22
+         },
+         {
+            "groupId": "48",
+            "section": "collaborative",
+            "analysis": 0.6
+         },
+         {
+            "groupId": "48",
+            "section": "results-oriented",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "48",
+            "section": "customer-oriented",
+            "analysis": 0.06
+         },
+         {
+            "groupId": "48",
+            "section": "detail-oriented",
+            "analysis": -0.18
+         },
+         {
+            "groupId": "49",
+            "section": "adaptability",
+            "analysis": 0.03
+         },
+         {
+            "groupId": "49",
+            "section": "integrity",
+            "analysis": -1.11
+         },
+         {
+            "groupId": "49",
+            "section": "collaborative",
+            "analysis": -0.36
+         },
+         {
+            "groupId": "49",
+            "section": "results-oriented",
+            "analysis": -0.24
+         },
+         {
+            "groupId": "49",
+            "section": "customer-oriented",
+            "analysis": -0.63
+         },
+         {
+            "groupId": "49",
+            "section": "detail-oriented",
+            "analysis": -1.95
+         },
+         {
+            "groupId": "5",
+            "section": "adaptability",
+            "analysis": 0
+         },
+         {
+            "groupId": "5",
+            "section": "integrity",
+            "analysis": 0
+         },
+         {
+            "groupId": "5",
+            "section": "collaborative",
+            "analysis": 0
+         },
+         {
+            "groupId": "5",
+            "section": "results-oriented",
+            "analysis": 0
+         },
+         {
+            "groupId": "5",
+            "section": "customer-oriented",
+            "analysis": 0
+         },
+         {
+            "groupId": "5",
+            "section": "detail-oriented",
+            "analysis": 0
+         },
+         {
+            "groupId": "50",
+            "section": "adaptability",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "50",
+            "section": "integrity",
+            "analysis": -0.03
+         },
+         {
+            "groupId": "50",
+            "section": "collaborative",
+            "analysis": -1.14
+         },
+         {
+            "groupId": "50",
+            "section": "results-oriented",
+            "analysis": -0.33
+         },
+         {
+            "groupId": "50",
+            "section": "customer-oriented",
+            "analysis": 0.06
+         },
+         {
+            "groupId": "50",
+            "section": "detail-oriented",
+            "analysis": -0.96
+         },
+         {
+            "groupId": "51",
+            "section": "adaptability",
+            "analysis": -0.06
+         },
+         {
+            "groupId": "51",
+            "section": "integrity",
+            "analysis": -0.02
+         },
+         {
+            "groupId": "51",
+            "section": "collaborative",
+            "analysis": -0.02
+         },
+         {
+            "groupId": "51",
+            "section": "results-oriented",
+            "analysis": 0.22
+         },
+         {
+            "groupId": "51",
+            "section": "customer-oriented",
+            "analysis": 0.08
+         },
+         {
+            "groupId": "51",
+            "section": "detail-oriented",
+            "analysis": -1.4
+         },
+         {
+            "groupId": "52",
+            "section": "adaptability",
+            "analysis": -0.05
+         },
+         {
+            "groupId": "52",
+            "section": "integrity",
+            "analysis": -0.09
+         },
+         {
+            "groupId": "52",
+            "section": "collaborative",
+            "analysis": -0.56
+         },
+         {
+            "groupId": "52",
+            "section": "results-oriented",
+            "analysis": 0.13
+         },
+         {
+            "groupId": "52",
+            "section": "customer-oriented",
+            "analysis": -0.04
+         },
+         {
+            "groupId": "52",
+            "section": "detail-oriented",
+            "analysis": -0.15
+         },
+         {
+            "groupId": "53",
+            "section": "adaptability",
+            "analysis": -1.26
+         },
+         {
+            "groupId": "53",
+            "section": "integrity",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "53",
+            "section": "collaborative",
+            "analysis": -1.52
+         },
+         {
+            "groupId": "53",
+            "section": "results-oriented",
+            "analysis": 0.48
+         },
+         {
+            "groupId": "53",
+            "section": "customer-oriented",
+            "analysis": -1.26
+         },
+         {
+            "groupId": "53",
+            "section": "detail-oriented",
+            "analysis": -0.12
+         },
+         {
+            "groupId": "54",
+            "section": "adaptability",
+            "analysis": 0.06
+         },
+         {
+            "groupId": "54",
+            "section": "integrity",
+            "analysis": 0.12
+         },
+         {
+            "groupId": "54",
+            "section": "collaborative",
+            "analysis": 1.42
+         },
+         {
+            "groupId": "54",
+            "section": "results-oriented",
+            "analysis": 0.22
+         },
+         {
+            "groupId": "54",
+            "section": "customer-oriented",
+            "analysis": -0.06
+         },
+         {
+            "groupId": "54",
+            "section": "detail-oriented",
+            "analysis": 0
+         },
+         {
+            "groupId": "6",
+            "section": "adaptability",
+            "analysis": -0.52
+         },
+         {
+            "groupId": "6",
+            "section": "integrity",
+            "analysis": -1.08
+         },
+         {
+            "groupId": "6",
+            "section": "collaborative",
+            "analysis": -0.6
+         },
+         {
+            "groupId": "6",
+            "section": "results-oriented",
+            "analysis": 0.16
+         },
+         {
+            "groupId": "6",
+            "section": "customer-oriented",
+            "analysis": -1.08
+         },
+         {
+            "groupId": "6",
+            "section": "detail-oriented",
+            "analysis": 0.36
+         },
+         {
+            "groupId": "7",
+            "section": "adaptability",
+            "analysis": 0.48
+         },
+         {
+            "groupId": "7",
+            "section": "integrity",
+            "analysis": -0.6
+         },
+         {
+            "groupId": "7",
+            "section": "collaborative",
+            "analysis": 0.39
+         },
+         {
+            "groupId": "7",
+            "section": "results-oriented",
+            "analysis": -0.3
+         },
+         {
+            "groupId": "7",
+            "section": "customer-oriented",
+            "analysis": 0.09
+         },
+         {
+            "groupId": "7",
+            "section": "detail-oriented",
+            "analysis": -0.48
+         },
+         {
+            "groupId": "8",
+            "section": "adaptability",
+            "analysis": -1.92
+         },
+         {
+            "groupId": "8",
+            "section": "integrity",
+            "analysis": -0.27
+         },
+         {
+            "groupId": "8",
+            "section": "collaborative",
+            "analysis": 0.15
+         },
+         {
+            "groupId": "8",
+            "section": "results-oriented",
+            "analysis": -0.75
+         },
+         {
+            "groupId": "8",
+            "section": "customer-oriented",
+            "analysis": -0.27
+         },
+         {
+            "groupId": "8",
+            "section": "detail-oriented",
+            "analysis": 0.45
+         },
+         {
+            "groupId": "9",
+            "section": "adaptability",
+            "analysis": -0.02
+         },
+         {
+            "groupId": "9",
+            "section": "integrity",
+            "analysis": -0.4
+         },
+         {
+            "groupId": "9",
+            "section": "collaborative",
+            "analysis": -0.9
+         },
+         {
+            "groupId": "9",
+            "section": "results-oriented",
+            "analysis": 0.02
+         },
+         {
+            "groupId": "9",
+            "section": "customer-oriented",
+            "analysis": -0.18
+         },
+         {
+            "groupId": "9",
+            "section": "detail-oriented",
+            "analysis": -0.6
+         }
+      ]
+   }
+}

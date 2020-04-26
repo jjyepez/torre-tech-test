@@ -1,0 +1,188 @@
+{
+   "residency": {
+      "anywhere": true,
+      "countries": []
+   },
+   "attachments": [
+      {
+         "resource": "cover",
+         "address": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1587868917/origin/opportunities/CasaLuker_S_nh35dn.jpg",
+         "path": "v1587868917/origin/opportunities/CasaLuker_S_nh35dn.jpg",
+         "caption": ""
+      }
+   ],
+   "boardVersion": 1,
+   "prefilledStatus": "ignored",
+   "locale": "es",
+   "objective": "Analista de Sistemas",
+   "review": "approved",
+   "draft": null,
+   "members": [
+      {
+         "id": "kWRqR8lr",
+         "person": {
+            "id": "ldEYXeQd",
+            "username": "91f647db-0ddb-405a-bbc8-8211faf21952",
+            "name": "Cristian Arturo Pinzon",
+            "hasEmail": false,
+            "hasBio": true,
+            "bioCompletion": 0,
+            "weight": 0,
+            "verified": false
+         },
+         "manager": false,
+         "poster": false,
+         "member": true,
+         "status": "pending",
+         "visible": true
+      },
+      {
+         "id": "Owb9aNXW",
+         "person": {
+            "id": "lr4Z27ew",
+            "username": "LeidyForero",
+            "name": "Leidy Tatiana Forero Olaya",
+            "hasEmail": false,
+            "professionalHeadline": "Independet Recruiter",
+            "picture": "https://starrgate.s3.amazonaws.com:443/users/a30798998230c7c0e382b2ab7d4fe3dd8d6fc7c3/profile_U3Bahfz.jpg",
+            "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/a30798998230c7c0e382b2ab7d4fe3dd8d6fc7c3/profile_U3Bahfz/6bff2906adac037651521708e234ab4d.jpg",
+            "hasBio": true,
+            "bioCompletion": 0.6923,
+            "weight": 0,
+            "verified": false,
+            "subjectId": 218827
+         },
+         "manager": true,
+         "poster": true,
+         "member": true,
+         "status": "accepted",
+         "visible": true
+      },
+      {
+         "id": "DWVPx2md",
+         "person": {
+            "id": "OwGVROW6",
+            "username": "katherinecortes",
+            "name": "Katherine Cortés",
+            "hasEmail": false,
+            "professionalHeadline": "Customer Success Specialist at Torre",
+            "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+            "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc/31b75ec1af86394f504be53ff8144d6f.jpg",
+            "hasBio": true,
+            "bioCompletion": 1,
+            "weight": 2726.9591,
+            "verified": true,
+            "subjectId": 85759
+         },
+         "manager": true,
+         "poster": false,
+         "member": false,
+         "status": "pending",
+         "visible": true
+      }
+   ],
+   "details": [
+      {
+         "code": "responsibilities",
+         "content": "• Análisis, diseño e implantación de soluciones informáticas y garantizar la adecuada infraestructura para que las soluciones de la empresa funcionen de acuerdo a las necesidades estratégicas de la organización.\n• Inventario y mantenimiento de equipos y sistemas informáticos.\n• Realizar el estudio de factibilidad para implantar soluciones informáticas organizacionales.\n• Garantizar que la infraestructura sea adecuada para los aplicativos organizacionales."
+      },
+      {
+         "code": "requirements",
+         "content": "• Años de experiencia: 1\n• Edad: A partir de 25 años"
+      },
+      {
+         "code": "career-path",
+         "content": "• Universidad / Carrera tecnológica"
+      },
+      {
+         "code": "additional",
+         "content": "• Tipo de contrato: Contrato a término fijo"
+      },
+      {
+         "code": "organizations",
+         "content": "Institución prestadora de salud, ubicada en 11 sedes del país. atendemos pacientes de diferentes EPS en patologías tales como VIH, hemofilia, artritis y artrosis. "
+      }
+   ],
+   "id": "8wD7gbWl",
+   "place": {
+      "remote": false,
+      "anywhere": false,
+      "location": [
+         {
+            "id": "Medellín, Antioquia, Colombia",
+            "latitude": 6.2476376,
+            "longitude": -75.5658153,
+            "serpData": "{\"@type\": \"PostalAddress\", \"postalCode\": \"050012\", \"addressRegion\": \"Antioquia\", \"streetAddress\": \"Carrera 46 \", \"addressCountry\": \"Colombia\", \"addressLocality\": \"Medellín\"}"
+         }
+      ]
+   },
+   "deadline": "2020-05-26T04:30:00Z",
+   "slug": "organizacion-vihonco-ips-sa-analista-de-sistemas",
+   "owner": {
+      "id": "lr4Z27ew",
+      "username": "LeidyForero",
+      "name": "Leidy Tatiana Forero Olaya",
+      "hasEmail": false,
+      "professionalHeadline": "Independet Recruiter",
+      "picture": "https://starrgate.s3.amazonaws.com:443/users/a30798998230c7c0e382b2ab7d4fe3dd8d6fc7c3/profile_U3Bahfz.jpg",
+      "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/a30798998230c7c0e382b2ab7d4fe3dd8d6fc7c3/profile_U3Bahfz/6bff2906adac037651521708e234ab4d.jpg",
+      "hasBio": true,
+      "bioCompletion": 0.6923,
+      "weight": 0,
+      "verified": false,
+      "subjectId": 218827
+   },
+   "completion": 0.6875,
+   "agreement": {
+      "type": "employment-contract"
+   },
+   "languages": [
+      {
+         "language": {
+            "code": "es",
+            "name": "Español"
+         },
+         "fluency": "fully-fluent"
+      }
+   ],
+   "created": "2020-04-26T02:44:59Z",
+   "opportunity": "employee",
+   "active": true,
+   "commitment": {
+      "code": "full-time",
+      "hours": 0
+   },
+   "stableOn": "2020-04-26T03:44:59Z",
+   "strengths": [
+      {
+         "id": "VdLxmKld",
+         "code": 377267,
+         "name": "Desarrollo de sistemas",
+         "experience": "1-plus-year"
+      },
+      {
+         "id": "lr43eVLd",
+         "code": 2004516,
+         "name": "sistemas informáticos",
+         "experience": "1-plus-year"
+      }
+   ],
+   "organizations": [
+      {
+         "id": 211312,
+         "name": "Organizacion Vihonco IPS SA",
+         "size": 6500,
+         "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/Organizacion+Vihonco+IPS+SA.jpg"
+      }
+   ],
+   "compensation": {
+      "code": "fixed",
+      "currency": "COP$",
+      "minAmount": 1345000,
+      "maxAmount": 0,
+      "periodicity": "monthly",
+      "visible": true
+   },
+   "openGraph": "https://hcti.io/v1/image/8875da13-ba4f-4737-aafb-f3e762761b35",
+   "status": "open"
+}

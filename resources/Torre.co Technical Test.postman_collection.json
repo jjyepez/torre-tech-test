@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "773f8447-59f3-4927-ac52-2f94e4ee31f1",
+		"name": "Torre.co Technical Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Jobs by jobID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://torre.co/api/opportunities/8wD7gbWl",
+					"protocol": "https",
+					"host": [
+						"torre",
+						"co"
+					],
+					"path": [
+						"api",
+						"opportunities",
+						"8wD7gbWl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bio by nickname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://torre.bio/api/bios/jjyepez",
+					"protocol": "https",
+					"host": [
+						"torre",
+						"bio"
+					],
+					"path": [
+						"api",
+						"bios",
+						"jjyepez"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Opportunities",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://search.torre.co/opportunities/_search/?offset=0&size=100&aggregate=undefined",
+					"protocol": "https",
+					"host": [
+						"search",
+						"torre",
+						"co"
+					],
+					"path": [
+						"opportunities",
+						"_search",
+						""
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "100"
+						},
+						{
+							"key": "aggregate",
+							"value": "undefined"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://search.torre.co/people/_search/?offset=0&size=100&aggregate=undefined",
+					"protocol": "https",
+					"host": [
+						"search",
+						"torre",
+						"co"
+					],
+					"path": [
+						"people",
+						"_search",
+						""
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "100"
+						},
+						{
+							"key": "aggregate",
+							"value": "undefined"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
