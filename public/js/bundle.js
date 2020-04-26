@@ -133,6 +133,17 @@ eval("function _inheritsLoose(subClass, superClass) {\n  subClass.prototype = Ob
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/components/css/Brand.css":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/components/css/Brand.css ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\\r\\n.Brand {\\r\\n   font-size: 1.2rem;\\r\\n   vertical-align: middle;\\r\\n}\\r\\n\\r\\n.Brand a{\\r\\n   text-decoration: none;\\r\\n}\\r\\n\\r\\n.Brand span{\\r\\n   vertical-align: middle;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/components/css/Brand.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/client/components/css/MainMenu.css":
 /*!**************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/client/components/css/MainMenu.css ***!
@@ -140,7 +151,18 @@ eval("function _inheritsLoose(subClass, superClass) {\n  subClass.prototype = Ob
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".MainMenu {\\r\\n\\r\\n}\\r\\n\\r\\n.MainMenu-Brand {\\r\\n   font-size: 1.5rem;\\r\\n   vertical-align: middle;\\r\\n}\\r\\n\\r\\n.MainMenu-NavBar{\\r\\n   width: 100%;\\r\\n}\\r\\n\\r\\n.MainMenu-CenterTitle{\\r\\n   flex: 1;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/components/css/MainMenu.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".MainMenu {\\r\\n\\r\\n}\\r\\n\\r\\n.MainMenu-NavBar{\\r\\n   width: 100%;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/components/css/MainMenu.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/components/css/MainTitle.css":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/components/css/MainTitle.css ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\\r\\n.MainTitle {\\r\\n   flex: 1;\\r\\n   text-align: center;\\r\\n   font-family: Muli, sans-serif;\\r\\n   font-size: 1.75rem;\\r\\n}\\r\\n\\r\\n.MainTitle a {\\r\\n   text-decoration: none;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/client/components/css/MainTitle.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -520,7 +542,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Brand; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Brand() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: \"/img/favicon.jpg\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"MainMenu-Brand ml-2\"\n  }, \"TTT v.0\"));\n}\n\n//# sourceURL=webpack:///./src/client/components/Brand.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Brand; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_Brand_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/Brand.css */ \"./src/client/components/css/Brand.css\");\n/* harmony import */ var _css_Brand_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_Brand_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Brand() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"Brand\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: \"/img/favicon.jpg\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"ml-2\"\n  }, \"TTT v.0\")));\n}\n\n//# sourceURL=webpack:///./src/client/components/Brand.js?");
 
 /***/ }),
 
@@ -532,7 +554,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Layout; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MainMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MainMenu */ \"./src/client/components/MainMenu.js\");\n/* harmony import */ var _MainContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MainContent */ \"./src/client/components/MainContent.js\");\n\n\n\nfunction Layout(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainContent__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n}\n\n//# sourceURL=webpack:///./src/client/components/Layout.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MainMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MainMenu */ \"./src/client/components/MainMenu.js\");\n/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/Home */ \"./src/client/pages/Home.js\");\n/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pages_Home__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pages_Login__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/Login */ \"./src/client/pages/Login.js\");\n/* harmony import */ var _pages_Profile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/Profile */ \"./src/client/pages/Profile.js\");\n/* harmony import */ var _pages_Profile__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pages_Profile__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _pages_People__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/People */ \"./src/client/pages/People.js\");\n/* harmony import */ var _pages_People__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pages_People__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _pages_Jobs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/Jobs */ \"./src/client/pages/Jobs.js\");\n/* harmony import */ var _pages_Jobs__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_pages_Jobs__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\n\n\n\n\n\n\n\nfunction Layout(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__[\"Switch\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Route, {\n    path: \"/home\",\n    component: _pages_Home__WEBPACK_IMPORTED_MODULE_2___default.a\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Route, {\n    path: \"/login\",\n    component: _pages_Login__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Route, {\n    path: \"/profile\",\n    component: _pages_Profile__WEBPACK_IMPORTED_MODULE_4___default.a\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Route, {\n    path: \"/people\",\n    component: _pages_People__WEBPACK_IMPORTED_MODULE_5___default.a\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Route, {\n    path: \"/jobs\",\n    component: _pages_Jobs__WEBPACK_IMPORTED_MODULE_6___default.a\n  })));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_7__[\"withRouter\"])(function (props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, props);\n}));\n\n//# sourceURL=webpack:///./src/client/components/Layout.js?");
 
 /***/ }),
 
@@ -548,18 +570,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/client/components/MainContent.js":
-/*!**********************************************!*\
-  !*** ./src/client/components/MainContent.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MainContent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction MainContent(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container mt-3\"\n  }, \"CONTENT\");\n}\n\n//# sourceURL=webpack:///./src/client/components/MainContent.js?");
-
-/***/ }),
-
 /***/ "./src/client/components/MainMenu.js":
 /*!*******************************************!*\
   !*** ./src/client/components/MainMenu.js ***!
@@ -568,7 +578,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MainMenu; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Brand__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Brand */ \"./src/client/components/Brand.js\");\n/* harmony import */ var _LoginLink__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LoginLink */ \"./src/client/components/LoginLink.js\");\n/* harmony import */ var _css_MainMenu_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/MainMenu.css */ \"./src/client/components/css/MainMenu.css\");\n/* harmony import */ var _css_MainMenu_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_MainMenu_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction MainMenu(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", {\n    className: \"MainMenu navbar navbar-dark bg-dark\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"MainMenu-NavBar navbar-brand mb-0 h1\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"d-flex\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Brand__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"MainMenu-CenterTitle\"\n  }, \"\\xA0\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LoginLink__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)))));\n}\n\n//# sourceURL=webpack:///./src/client/components/MainMenu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MainMenu; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Brand__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Brand */ \"./src/client/components/Brand.js\");\n/* harmony import */ var _MainTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./MainTitle */ \"./src/client/components/MainTitle.js\");\n/* harmony import */ var _LoginLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./LoginLink */ \"./src/client/components/LoginLink.js\");\n/* harmony import */ var _css_MainMenu_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./css/MainMenu.css */ \"./src/client/components/css/MainMenu.css\");\n/* harmony import */ var _css_MainMenu_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_MainMenu_css__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nfunction MainMenu(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", {\n    className: \"MainMenu navbar navbar-dark bg-dark\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"MainMenu-NavBar navbar-brand mb-0\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"d-flex\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Brand__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MainTitle__WEBPACK_IMPORTED_MODULE_5__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LoginLink__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null)))));\n}\n\n//# sourceURL=webpack:///./src/client/components/MainMenu.js?");
+
+/***/ }),
+
+/***/ "./src/client/components/MainTitle.js":
+/*!********************************************!*\
+  !*** ./src/client/components/MainTitle.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MainTitle; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_MainTitle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/MainTitle.css */ \"./src/client/components/css/MainTitle.css\");\n/* harmony import */ var _css_MainTitle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_MainTitle_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction MainTitle() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"MainTitle mb-0 h1\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"https://torre.co\",\n    target: \"_blank\"\n  }, \"torre\"));\n}\n\n//# sourceURL=webpack:///./src/client/components/MainTitle.js?");
+
+/***/ }),
+
+/***/ "./src/client/components/css/Brand.css":
+/*!*********************************************!*\
+  !*** ./src/client/components/css/Brand.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./Brand.css */ \"./node_modules/css-loader/dist/cjs.js!./src/client/components/css/Brand.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/css/Brand.css?");
 
 /***/ }),
 
@@ -583,6 +616,17 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 
 /***/ }),
 
+/***/ "./src/client/components/css/MainTitle.css":
+/*!*************************************************!*\
+  !*** ./src/client/components/css/MainTitle.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./MainTitle.css */ \"./node_modules/css-loader/dist/cjs.js!./src/client/components/css/MainTitle.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/css/MainTitle.css?");
+
+/***/ }),
+
 /***/ "./src/client/entry.js":
 /*!*****************************!*\
   !*** ./src/client/entry.js ***!
@@ -592,6 +636,62 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App */ \"./src/client/components/App.js\");\n\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById(\"app\"));\n\n//# sourceURL=webpack:///./src/client/entry.js?");
+
+/***/ }),
+
+/***/ "./src/client/pages/Home.js":
+/*!**********************************!*\
+  !*** ./src/client/pages/Home.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n\n//# sourceURL=webpack:///./src/client/pages/Home.js?");
+
+/***/ }),
+
+/***/ "./src/client/pages/Jobs.js":
+/*!**********************************!*\
+  !*** ./src/client/pages/Jobs.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n\n//# sourceURL=webpack:///./src/client/pages/Jobs.js?");
+
+/***/ }),
+
+/***/ "./src/client/pages/Login.js":
+/*!***********************************!*\
+  !*** ./src/client/pages/Login.js ***!
+  \***********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/client/pages/Login.js?");
+
+/***/ }),
+
+/***/ "./src/client/pages/People.js":
+/*!************************************!*\
+  !*** ./src/client/pages/People.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n\n//# sourceURL=webpack:///./src/client/pages/People.js?");
+
+/***/ }),
+
+/***/ "./src/client/pages/Profile.js":
+/*!*************************************!*\
+  !*** ./src/client/pages/Profile.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n\n//# sourceURL=webpack:///./src/client/pages/Profile.js?");
 
 /***/ })
 

@@ -34,3 +34,6 @@ You have 24 hours to complete it
 - Download repo
 - Run npm install
 - Run npm start:prod
+
+## Base Prototype
+![base_prototybe](./resources/prototype_v0.png "Prototype v0")

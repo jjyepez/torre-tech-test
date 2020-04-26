@@ -1,0 +1,13 @@
+
+.Brand {
+   font-size: 1.2rem;
+   vertical-align: middle;
+}
+
+.Brand a{
+   text-decoration: none;
+}
+
+.Brand span{
+   vertical-align: middle;
+}

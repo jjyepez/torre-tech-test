@@ -10,3 +10,13 @@
 
 13:43 ready to start dev
 - IDEA chosen: Develop general UI for consulting profile and searching employees/job in different fashion than currently torre.co does. (further ideas may come later on)
+
+14:00
+- Start design UX / UI overall
+- Got prototype v0
+
+15:30 - 16:15
+- Lunch
+
+16:15
+- Start Implementing Rect nav
