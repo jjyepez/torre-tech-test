@@ -10,7 +10,7 @@ export default function HeroButton({ imgSrc, href, title }) {
          <Link to={href}>
 
             <img width='100%' src={imgSrc} />
-            <legend>{title}</legend>
+            <legend className="mt-3">{title}</legend>
 
          </Link>
 

@@ -1,0 +1,7 @@
+.VerifiedBadge {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   min-width: 24px;
+   min-height: 24px; 
+}

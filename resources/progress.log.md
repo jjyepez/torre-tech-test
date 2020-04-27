@@ -27,3 +27,9 @@
 
 19:29
 - Start working on backend, first mocked endpoint for People services 
+
+20:45
+- Continues front components development for main results based on People data
+
+21:00
+- Dinner time

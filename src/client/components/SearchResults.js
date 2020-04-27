@@ -20,23 +20,13 @@ export default class SearchResults extends Component {
 
             <div className="SearchResults">
                {
-                  this.props.data.map((item, i) => {
-                     let cardData = item;
+                  this.props.data.map((cardData, i) => {
                      return (
                         <Card
                            key={i}
                            data={cardData}
                         >
-                           <div className="row">
-                              <div className="col-6">
-                                 {cardData.fullName}
-                              </div>
-                              <div className="col">
-                                 <Avatar
-                                    imgSrc={cardData.picture}
-                                 />
-                              </div>
-                           </div>
+                           {this.props.renderCardHandler(cardData)}
                         </Card>
                      )
                   })
