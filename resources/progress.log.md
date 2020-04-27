@@ -49,3 +49,13 @@
 
 04:45
 - Starting JOB profile UI + not mockup backend
+
+07:45
+- Finalizing development
+- Made overoll test and review
+- Acceptance achieved
+- Starting deployment
+
+08:15
+- Deployment completed
+- Sending deriverables
