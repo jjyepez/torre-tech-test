@@ -6,6 +6,7 @@ import MainContent from './MainContent';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import Profile from '../pages/Profile';
+import Opportunity from '../pages/Opportunity';
 import People from '../pages/People';
 import Jobs from '../pages/Jobs';
 import Error404 from '../pages/Error404';
@@ -30,6 +31,7 @@ function Layout(props) {
                <Route path="/" exact component={Home} />
                <Route path="/login" exact component={Login} />
                <Route path="/profile" component={Profile} />
+               <Route path="/opportunity" component={Opportunity} />
                <Route path="/people" exact component={People} />
                <Route path="/jobs" exact component={Jobs} />
                <Route component={Error404} />

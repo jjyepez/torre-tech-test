@@ -26,7 +26,7 @@ export default function Home(props) {
                <HeroButton
                   href='/jobs'
                   imgSrc='/img/jobs_hero.png'
-                  title='JOBS'
+                  title='EMPLEOS'
                />
             </div>
          </div>

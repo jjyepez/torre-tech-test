@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function LoginLink({ imgSrc, userName }) {
 
    return (
-      <Link to={`/people/${userName}`}>
+      <Link to={`/profile?username=${userName}`}>
          <Avatar
             width={30}
             height={32}

@@ -33,3 +33,9 @@
 
 21:00
 - Dinner time
+
+21:45
+- Continue to work on People Section
+
+23:00
+- Start working on Opportunities Section based on People Section 

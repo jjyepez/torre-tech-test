@@ -48,12 +48,15 @@ export default class People extends Component {
    }
 
    renderCardHandler = (cardData) => {
+
+      // Weight description prep
       let roundedWeight = Math.round(cardData.weight);
       let weightDesc = roundedWeight > 1000 ? (roundedWeight / 1000) + 'k' : ~~(cardData.weight);
+
       return (
          <>
             <div style={{ position: 'relative' }}>
-               <div className="d-flex">
+               <div className="d-flex mb-2">
                   <div className='mr-3'>
                      <Link to={`/profile?user=${cardData.userName}`}>
                         <Avatar
@@ -64,15 +67,15 @@ export default class People extends Component {
                   </div>
                   <div>
                      <div>{cardData.fullName}</div>
-                     <div>
+                     <div style={{ color: '#CDDC39' }}>
                         <FontAwesomeIcon className="mr-2" icon={faWeightHanging} /> {weightDesc}
                      </div>
                   </div>
                </div>
             </div>
             <div>
-               <div className="text-muted" style={{ height: '3rem', overflow: 'hidden' }}>{cardData.headline}</div>
-               <Link to={`/profile?username=${cardData.userName}`} className="btn btn-block btn-secondary">Ver Bio</Link>
+               <div className="text-muted" style={{ height: '2.75rem', overflow: 'hidden' }}>{cardData.headline}</div>
+               <Link to={`/profile?username=${cardData.userName}`} className="btn btn-block btn-secondary mt-2">Ver Bio</Link>
             </div>
          </>
       )
