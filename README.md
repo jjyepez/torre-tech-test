@@ -37,3 +37,13 @@ You have 24 hours to complete it
 
 ## Base Prototype
 ![base_prototybe](./resources/prototype_v0.png "Prototype v0")
+
+## Live demo
+http://noesishosting.com:8001/
+
+## GIT Repo
+https://github.com/jjyepez/torre-tech-test
+
+## Author
+Julio J. Yépez
+@jjyepez
