@@ -51,7 +51,7 @@ export default class People extends Component {
 
       // Weight description prep
       let roundedWeight = Math.round(cardData.weight);
-      let weightDesc = roundedWeight > 1000 ? (roundedWeight / 1000) + 'k' : ~~(cardData.weight);
+      let weightDesc = roundedWeight > 1000 ? (roundedWeight / 1000).toFixed(1) + 'k' : ~~(cardData.weight);
 
       return (
          <>

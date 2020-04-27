@@ -8,7 +8,7 @@ export default function JobsSearchForm(props) {
             <input className="form-control" />
          </fieldset>
 
-         <button className="btn btn-secondary btn-block mt-3">BUSCAR</button>
+         <button disabled className="btn btn-secondary btn-block mt-3">BUSCAR</button>
       </form>
    )
 }

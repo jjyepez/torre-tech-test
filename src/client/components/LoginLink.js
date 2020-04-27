@@ -9,7 +9,7 @@ export default function LoginLink({ imgSrc, userName }) {
       <Link to={`/profile?username=${userName}`}>
          <Avatar
             width={30}
-            height={32}
+            height={33}
             imgSrc={imgSrc}
          />
       </Link>

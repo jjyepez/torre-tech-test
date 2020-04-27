@@ -1,0 +1,32 @@
+.ProfileDetails {
+   margin-top: -2rem;
+   z-index: -1;
+   width: 100%;
+   min-height: 50vh;
+}
+
+.ProfileDetails-Header {
+   padding-left: 2rem;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.ProfileDetails-StatsCard {
+   align-items: center;
+   justify-content: center;
+   display: grid;
+   grid-template-columns: repeat(5, auto);
+   grid-column-gap: 1.35rem;
+}
+
+.ProfileDetails-StatsCard .h3 {
+   color: #CDDC39;
+}
+
+.ProfileDetails-Section {
+   display: grid;
+   grid-template-columns: repeat(4, auto);
+   grid-gap: 10px 10px;
+}

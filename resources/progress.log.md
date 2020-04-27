@@ -39,3 +39,10 @@
 
 23:00
 - Start working on Opportunities Section based on People Section 
+
+00:35
+- Jobs section base ok
+- Starting develop Components for People Profile section
+
+00:50
+- Snack break
