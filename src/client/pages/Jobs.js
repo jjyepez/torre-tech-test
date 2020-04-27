@@ -7,6 +7,7 @@ import PageBody from '../components/PageBody';
 import JobsSearchForm from '../components/JobsSearchForm';
 import SearchResults from '../components/SearchResults';
 import NavTabs from '../components/NavTabs';
+import Loader from '../components/Loader';
 
 import Avatar from '../components/Avatar';
 
@@ -105,6 +106,11 @@ export default class Jobs extends Component {
    }
 
    render() {
+
+      if (!this.state.jobsData || Object.keys(this.state.jobsData).length == 0) {
+         return <Loader />;
+      }
+
       return (
          <>
             <Sidebar>

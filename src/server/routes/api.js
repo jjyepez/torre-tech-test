@@ -14,12 +14,31 @@ router
    })
 
    .get('/people', async (req, res, next) => {
+      let json = {}, data = [];
+      let useMock = false;
 
-      let filename = path.join(__dirname, '../../../data/mocks/people.json');
-      let jsonString = fs.readFileSync(filename, { encoding: 'utf8' });
-      let json = JSON.parse(jsonString);
+      if (useMock) {
 
-      let data = json.results.slice(0, 30);
+         let filename = path.join(__dirname, '../../../data/mocks/people.json');
+         let jsonString = fs.readFileSync(filename, { encoding: 'utf8' });
+         json = JSON.parse(jsonString);
+         data = json.results.slice(0, 30);
+
+      } else {
+
+         let endpoint = process.env.TORRE_PEOPLE_SEARCH_ENDPOINT;
+         let url = `${endpoint}?offset=0&size=12`;
+
+         console.log({ url });
+
+         json = await fetch(url, {
+            method: 'POST',
+            headers: {
+               'Accept': 'application/json'
+            }
+         }).then(rslt => rslt.json());
+         data = json.results;
+      }
 
       res
          .status(200)
@@ -46,7 +65,7 @@ router
       } else {
 
          let userName = req.params.userName;
-         let endpoint = process.env.TORRE_PROFILE_ENDPOINT_HOST;
+         let endpoint = process.env.TORRE_PROFILE_ENDPOINT;
          let url = `${endpoint}/${userName}`;
 
          json = await fetch(url, {
@@ -56,9 +75,6 @@ router
          }).then(rslt => rslt.json());
 
       }
-
-
-      console.log({ json });
 
       res
          .status(200)
@@ -70,12 +86,31 @@ router
    })
 
    .get('/jobs', async (req, res, next) => {
+      let json = {}, data = [];
+      let useMock = false;
 
-      let filename = path.join(__dirname, '../../../data/mocks/opportunities.json');
-      let jsonString = fs.readFileSync(filename, { encoding: 'utf8' });
-      let json = JSON.parse(jsonString);
+      if (useMock) {
 
-      let data = json.results.slice(0, 30);
+         let filename = path.join(__dirname, '../../../data/mocks/opportunities.json');
+         let jsonString = fs.readFileSync(filename, { encoding: 'utf8' });
+         json = JSON.parse(jsonString);
+         data = json.results.slice(0, 30);
+
+      } else {
+
+         let endpoint = process.env.TORRE_OPPORTUNITIES_SEARCH_ENDPOINT;
+         let url = `${endpoint}?offset=0&size=12`;
+
+         console.log({ url });
+
+         json = await fetch(url, {
+            method: 'POST',
+            headers: {
+               'Accept': 'application/json'
+            }
+         }).then(rslt => rslt.json());
+         data = json.results;
+      }
 
       res
          .status(200)
@@ -90,7 +125,7 @@ router
    .get('/jobs/:jobID', async (req, res, next) => {
 
       let jobID = req.params.jobID;
-      let endpoint = process.env.TORRE_JOB_ENDPOINT_HOST;
+      let endpoint = process.env.TORRE_JOB_ENDPOINT;
       let url = `${endpoint}/${jobID}`;
 
       let json = await fetch(url, {

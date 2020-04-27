@@ -12,7 +12,7 @@ import './css/ProfileDetails.css';
 export default function ProfileDetails({ data = {} } = {}) {
 
    if (!data || Object.keys(data).length == 0) {
-      return <div><Loader></Loader></div>;
+      return <Loader />;
    }
 
    // Weight description prep

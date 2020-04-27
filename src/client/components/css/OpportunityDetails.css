@@ -1,0 +1,36 @@
+.OpportunityDetails {
+   margin-top: -3.5rem;
+   z-index: -1;
+   width: 100%;
+   min-height: 50vh;
+}
+
+.OpportunityDetails-Cover {
+   margin: 0 auto;
+   margin-top: -5rem;
+   border-radius: 5px;
+   width: 80vw;
+   opacity: .8;
+   filter: blur(3px);
+   z-index: -1;
+   position: relative;
+}
+
+.OpportunityDetails .Avatar {
+   margin: 0 auto; 
+}
+
+.OpportunityDetails .Card {
+   border-radius: 5px;
+   padding: 1rem;
+   width: 50%;
+   background-color: rgba(100,100,100,.2);
+   margin: -15rem auto 0px;
+   background: #333;
+}
+
+.OpportunityDetails-Grid {
+   display: grid;
+   grid-template-columns: repeat(2, auto);
+   grid-gap: 1.5rem 1rem;
+}

@@ -8,6 +8,7 @@ export default function Avatar(props) {
    return (
       <Suspense fallback={<div>LOAD</div>}>
          <div
+            className="Avatar"
             style={{
                backgroundColor: 'rgba(100,100,100,.5)',
                backgroundImage: `url(${props.imgSrc})`,

@@ -7,6 +7,7 @@ import PageBody from '../components/PageBody';
 import PeopleSearchForm from '../components/PeopleSearchForm';
 import SearchResults from '../components/SearchResults';
 import NavTabs from '../components/NavTabs';
+import Loader from '../components/Loader';
 
 import Avatar from '../components/Avatar';
 
@@ -86,6 +87,11 @@ export default class People extends Component {
    }
 
    render() {
+
+      if (!this.state.peopleData || Object.keys(this.state.peopleData).length == 0) {
+         return <Loader />;
+      }
+
       return (
          <>
             <Sidebar>

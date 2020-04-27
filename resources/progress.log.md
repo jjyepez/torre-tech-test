@@ -46,3 +46,6 @@
 
 00:50
 - Snack break
+
+04:45
+- Starting JOB profile UI + not mockup backend
