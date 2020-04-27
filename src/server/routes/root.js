@@ -7,6 +7,10 @@ router
          .status(200)
          .sendFile(path.join(__dirname, '../../../public/index.html'))
          ;
-   });
+   })
+
+   .use('/api', require('./api'))
+
+   ;
 
 module.exports = router;

@@ -20,6 +20,8 @@ app
         res.redirect('/');
     })
 
+    ;
+
 // Server
 let port = process.env.EXPRESS_PORT || 8000;
 let host = process.env.host || 'localhost';

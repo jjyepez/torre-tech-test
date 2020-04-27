@@ -20,3 +20,10 @@
 
 16:15
 - Start Implementing Rect nav
+- Developing People Section
+
+19:00
+- Start integrating People mock
+
+19:29
+- Start working on backend, first mocked endpoint for People services 

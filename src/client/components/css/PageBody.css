@@ -1,0 +1,10 @@
+.PageBody {
+   position: relative;
+   overflow: auto;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+.PageBody.WithSidebar{
+   margin-left: 250px;
+}
